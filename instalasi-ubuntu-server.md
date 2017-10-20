@@ -8,11 +8,11 @@
 #### Langkah-langkah Instalasi
 
 1. Install Virtual Box
-2. Buka Virtual Box![](/assets/ubuntu-server/1.PNG)
-3. Membuat Virtual Machine baru dengan menekan tombol New
+2. Buka Virtual Box Membuat Virtual Machine baru dengan menekan tombol New
 
-. ![](/assets/ubuntu-server/2.PNG)
 
-4. 
+
+
+
 
 
