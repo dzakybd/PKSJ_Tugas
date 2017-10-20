@@ -18,7 +18,7 @@
 
 * Pendahulan
 * [Dasar Teori](laporan-2/dasar-teori.md)
-* Instalasi Wordpress
+* [Instalasi Wordpress](laporan-2/instalasi-wordpress.md)
 * Instalasi plugin
 * Uji sql injection wpscan
 * Uji sql injection sqlmap
