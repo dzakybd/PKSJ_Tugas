@@ -6,7 +6,6 @@
 
 ## Laporan 1
 
-* [Pendahuluan](introduction/daftar-isi.md)
 * [Dasar Teori](dasar-teori.md)
 * [Instalasi Ubuntu Server](instalasi-ubuntu-server.md)
 * [Instalasi Ubuntu Desktop](instalasi-ubuntu-desktop.md)
@@ -30,5 +29,6 @@
 
 ## Laporan 1
 
+* [Pendahuluan](introduction/daftar-isi.md)
 * [rere](laporan-1/rere.md)
 
