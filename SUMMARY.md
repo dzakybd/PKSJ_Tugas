@@ -12,7 +12,7 @@
 * [Konfigurasi fail2ban](konfigurasi-fail2ban.md)
 * [Konfigurasi ssh non default](konfigurasi-ssh-non-default.md)
 * [Uji coba fail2ban](uji-coba-ncrack.md)
-* Kesimpulan dan Saran
+* [Kesimpulan dan Saran](kesimpulan-dan-saran.md)
 
 ## Laporan 2
 
