@@ -136,6 +136,8 @@
 
 ![](/assets/ubuntu-server/38.PNG)
 
+* **Step 36** : 
+
 
 
 
