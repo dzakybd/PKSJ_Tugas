@@ -49,6 +49,16 @@
 
 ![](/assets/ubuntu-server/12.PNG)
 
+* **Step 14** : Pada _Controller: IDE_ akan muncul _disc_ Ubuntu Server.
+
+![](/assets/ubuntu-server/13.PNG)
+
+* **Step 15** : Langkah selanjutnya adalah konfigurasi interface internet _Virtual Machine_. Pada pilihan _Attached to_, pilih _Bridged Adapter_. Setelah itu pilih interface komputer yang akan dijadikan bridged. Setelah selesai konfigurasi interface, tekan tombol OK.
+
+![](/assets/ubuntu-server/14.PNG)
+
+
+
 
 
 
