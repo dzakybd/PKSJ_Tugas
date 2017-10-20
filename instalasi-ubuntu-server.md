@@ -38,6 +38,16 @@
 * **Step 10** : Langkah selanjutnya adalah menambahkan file iso Ubuntu Server dan konfigurasi network Virtual Machine agar mendapatkan IP sendiri. Klik pada _Virtual Machine_ yang akan kita gunakan. Kemudian klik kanan dan tekan _Settinsg_. Setelah itu akan muncul dialog _Settings_.
 
 ![](/assets/ubuntu-server/9.PNG)
+* **Step 11** : Klik pada menu _Storage_, kemudian pada _Controller: IDE_ pilih icon _CD plus_ untuk menambahkan iso Ubuntu Server.
+
+![](/assets/ubuntu-server/10.PNG)
+* **Step 12** : Klik _Choose disk_ untuk menambahkan iso Ubuntu Server.
+
+![](/assets/ubuntu-server/11.PNG)
+
+* **Step 13** : Pilih iso Ubuntu Server dan klik tombol _Open_.
+
+![](/assets/ubuntu-server/12.PNG)
 
 
 
