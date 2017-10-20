@@ -57,6 +57,12 @@
 
 ![](/assets/ubuntu-server/14.PNG)
 
+* **Step 16** : Tekan tombol _Start_. Kemudian muncul dialog _Virtual Machine_. Setelah itu pilih bahasa instalasi OS.
+
+![](/assets/ubuntu-server/15.PNG)
+
+
+
 
 
 
