@@ -1,8 +1,12 @@
 # Summary
 
+## Introduction
+
+* [Daftar Isi](README.md)
+
 ## Laporan 1
 
-* [Pendahuluan](README.md)
+* [Pendahuluan](introduction/daftar-isi.md)
 * [Dasar Teori](dasar-teori.md)
 * [Instalasi Ubuntu Server](instalasi-ubuntu-server.md)
 * [Instalasi Ubuntu Desktop](instalasi-ubuntu-desktop.md)
