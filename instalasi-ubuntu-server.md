@@ -124,6 +124,18 @@
 
 ![](/assets/ubuntu-server/33.PNG)
 
+* **Step 33** : Pilih _Finish Partitioning and write changes in disk_ dan tekan enter.
+
+![](/assets/ubuntu-server/34.PNG)
+
+* **Step 34** : Pilih _Yes_ dan tekan enter.
+
+![](/assets/ubuntu-server/35.PNG)
+
+* **Step 35** : Pada menu _Software Selection_ arahkan cursor pada _OpenSSH Server_ menggunakan tombol tab dan pilih menggunakan tombol spasi. Setelah itu pilih _Continue_ dengan tombol tab dan tekan enter.
+
+![](/assets/ubuntu-server/38.PNG)
+
 
 
 
