@@ -6,7 +6,7 @@
 
 ## Laporan 1
 
-* [Pendahuluan](introduction/pendahuluan.md)
+* [Pendahuluan](laporan-1/pendahuluan.md)
 * [Dasar Teori](laporan-1/dasar-teori.md)
 * [Instalasi Ubuntu Server](laporan-1/instalasi-ubuntu-server.md)
 * [Instalasi Ubuntu Desktop](laporan-1/instalasi-ubuntu-desktop.md)
