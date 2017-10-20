@@ -22,6 +22,13 @@
                                   \|___|                   \/____/
 ```
 
+## Anggota
+1. Fathoni Adi Kurniawan (5114100020)
+2. Dzaky Zakiyal Fawwaz (5114100067)
+3. Muhammad Hilman (5114100069)
+4. Fikry Khairytamim (5114100192)
+
+
 ## Tugas
 
 * Tugas 1
