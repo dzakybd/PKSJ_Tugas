@@ -26,7 +26,9 @@
 
 * Tugas 1
 
-  * 
+  * Laporan 1 \([Pendahuluan](/laporan-1/pendahuluan.md)\)
+
+  * Laporan 2 \([Pendahulan](/laporan-2/pendahulan.md)\)
 
 
 
