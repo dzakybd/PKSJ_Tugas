@@ -104,9 +104,17 @@
 
 ![](/assets/ubuntu-server/27.PNG)
 
-* **Step 28** : Pilih _No_ pada pilihan opsi enksripsi home user folder.
+* **Step 28** : Pilih _No_ pada pilihan opsi enksripsi home user folder dan tekan enter.
 
 ![](/assets/ubuntu-server/28.PNG)
+
+* **Step 29** : Pilih timezone dan kemudian tekan enter.
+
+![](/assets/ubuntu-server/30.PNG)
+
+* **Step 30** : Pilih _Guided Partitioning_.
+
+![](/assets/ubuntu-server/31.PNG)
 
 
 
