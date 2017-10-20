@@ -136,7 +136,11 @@
 
 ![](/assets/ubuntu-server/38.PNG)
 
-* **Step 36** : 
+* **Step 36** : Pilih _Yes_ pada install Grub dan tekan enter.
+
+![](/assets/ubuntu-server/40.PNG)
+
+* **Step 37** : 
 
 
 
