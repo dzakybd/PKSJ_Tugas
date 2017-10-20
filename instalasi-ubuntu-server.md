@@ -21,14 +21,15 @@
 
    ![](/assets/ubuntu-server/4.PNG)
 * **Step 6** : Pilih opsi _VDI_ pada saat memilih format file _hardisk_.
+
 ![](/assets/ubuntu-server/5.PNG)
 
 * **Step 7** : Setelah memilih opsi _Storage_ kemudian akan muncul dialog tipe _Storage_. Pilih opsi _Dynamically allocated_. Kemudian tekan tombol _next_.
+
 ![](/assets/ubuntu-server/6.PNG)
-
 * **Step 8** : Atur kapasitas _Storage_ _Virtual Machine_. Kemudian tekan _Create_.
-![](/assets/ubuntu-server/7.PNG)
 
+![](/assets/ubuntu-server/7.PNG)
 * **Step 9** : _Virtual Machine_ sudah dibuat.
 
 ![](/assets/ubuntu-server/8.PNG)
