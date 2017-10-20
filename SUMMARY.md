@@ -14,7 +14,7 @@
 * [Uji sql injection sqlmap](laporan-2/uji-sql-injection-sqlmap.md)
 * [Kesimpulan dan Saran](laporan-2/kesimpulan-dan-saran.md)
 
-## Laporan a
+## Laporan 1
 
 * [Pendahuluan](introduction/daftar-isi.md)
 * [Dasar Teori](dasar-teori.md)
