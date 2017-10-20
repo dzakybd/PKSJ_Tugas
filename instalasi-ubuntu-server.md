@@ -116,6 +116,16 @@
 
 ![](/assets/ubuntu-server/31.PNG)
 
+* **Step 31** : Pilih _Guided - use entire disk_
+
+![](/assets/ubuntu-server/32.PNG)
+
+* **Step 32** : Pilih disk yang akan kita install OS.
+
+![](/assets/ubuntu-server/33.PNG)
+
+
+
 
 
 
