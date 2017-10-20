@@ -78,7 +78,7 @@
 
 * **Step 21** : Kemudian pilih penggunaan keyboard berdasarkan negara. Setelah memilih, tekan enter.
 
-![](/assets/ubuntu-server/20.PNG)
+![](/assets/ubuntu-server/20.PNG) 
 
 * **Step 22** : Kemudian pilih keyboard layout dan tekan enter.
 
