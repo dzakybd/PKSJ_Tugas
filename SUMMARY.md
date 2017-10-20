@@ -16,3 +16,11 @@
 
 ## Laporan 2
 
+* Pendahulan
+* [Dasar Teori](laporan-2/dasar-teori.md)
+* Instalasi Wordpress
+* Instalasi plugin
+* Uji sql injection wpscan
+* Uji sql injection sqlmap
+* Kesimpulan dan Saran
+
