@@ -19,15 +19,15 @@
                                 |::|   |                \::::::/    /                               
                                 \::|   |                 \::::/    /                                
                                  \:|   |                  \::/    /                                 
-                                  \|___|                   \/____/                                  
-                                                                                                    
+                                  \|___|                   \/____/
 ```
 
-##  Tugas
+## Tugas
 
 * Tugas 1
-  * [Laporan 1](Laporan 1)
-  * [Laporan 2](Laporan 2)
+  * [Laporan 1/README.md](Laporan 1/README.md)
+
+  * [Laporan 2/README.md](Laporan 2/README.md)
 
 
 
