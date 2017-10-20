@@ -104,6 +104,9 @@
 
 ![](/assets/ubuntu-server/27.PNG)
 
+* **Step 28** : Pilih _No_ pada pilihan opsi enksripsi home user folder.
+
+![](/assets/ubuntu-server/28.PNG)
 
 
 
