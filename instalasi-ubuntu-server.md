@@ -64,13 +64,19 @@
 
 ![](/assets/ubuntu-server/16.PNG)
 
-* **Step 18** : Pilih negara kemduian tekan enter.
+* **Step 18** : Pilih bahasa kemudian tekan enter.
+
+![](/assets/ubuntu-server/17.PNG)
+
+* **Step 19** : Pilih negara kemudian tekan enter.
 
 ![](/assets/ubuntu-server/18.PNG)
 
-* **Step 19** : Setelah memilih negara, maka proses instalasi selanjutnya adalah konfigurasi _layout_ _keyboard_. Pada proses ini pilih No dan tekan enter.
+* **Step 20** : Setelah memilih negara, maka proses instalasi selanjutnya adalah konfigurasi _layout_ _keyboard_. Pada proses ini pilih No dan tekan enter.
 
 ![](/assets/ubuntu-server/19.PNG)
+
+* **Step 21** : 
 
 
 
