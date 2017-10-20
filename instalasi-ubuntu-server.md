@@ -76,7 +76,9 @@
 
 ![](/assets/ubuntu-server/19.PNG)
 
-* **Step 21** : 
+* **Step 21** : Kemudian pilih penggunaan keyboard berdasarkan negara. Setelah memilih, tekan enter.
+
+![](/assets/ubuntu-server/20.PNG)
 
 
 
