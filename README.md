@@ -25,9 +25,8 @@
 ## Tugas
 
 * Tugas 1
-  * [Laporan 1/README.md](Laporan 1/README.md)
 
-  * [Laporan 2/README.md](Laporan 2/README.md)
+  * 
 
 
 
