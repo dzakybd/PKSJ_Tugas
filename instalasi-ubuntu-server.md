@@ -1,5 +1,4 @@
 
-
 ## Instalasi Ubuntu Server
 
 #### Requirement
@@ -61,7 +60,17 @@
 
 ![](/assets/ubuntu-server/15.PNG)
 
-* **Step 17** : ![](/assets/ubuntu-server/16.PNG)
+* **Step 17** : Pilih _Install ubuntu server_ dan kemudian tekan enter.
+
+![](/assets/ubuntu-server/16.PNG)
+
+* **Step 18** : Pilih negara kemduian tekan enter.
+
+![](/assets/ubuntu-server/18.PNG)
+
+* **Step 19** : Setelah memilih negara, maka proses instalasi selanjutnya adalah konfigurasi _layout_ _keyboard_. Pada proses ini pilih No dan tekan enter.
+
+![](/assets/ubuntu-server/19.PNG)
 
 
 
