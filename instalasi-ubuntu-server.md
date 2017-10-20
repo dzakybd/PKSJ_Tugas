@@ -140,7 +140,13 @@
 
 ![](/assets/ubuntu-server/40.PNG)
 
-* **Step 37** : 
+* **Step 37** : Instalasi selesai dan pilih _Continue_ agar VM reboot.
+
+![](/assets/ubuntu-server/41.PNG)
+
+* **Step 38** : VM dengan Ubuntu Server sudah siap untuk digunakan
+
+![](/assets/ubuntu-server/42.PNG)
 
 
 
