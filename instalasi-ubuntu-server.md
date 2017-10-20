@@ -13,6 +13,6 @@
 
 . ![](/assets/ubuntu-server/2.PNG)
 
-1. 
+4. 
 
 
