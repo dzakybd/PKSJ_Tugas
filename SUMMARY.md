@@ -11,7 +11,7 @@
 * [Konfigurasi fail2ban](konfigurasi-fail2ban.md)
 * [Konfigurasi ssh non default](konfigurasi-ssh-non-default.md)
 * [Uji coba fail2ban](uji-coba-fail2ban.md)
-* Uji coba ncrack
+* [Uji coba ncrack](uji-coba-ncrack.md)
 
 ## Laporan 2
 
