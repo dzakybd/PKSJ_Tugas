@@ -35,7 +35,9 @@
 * **Step 9** : _Virtual Machine_ sudah dibuat.
 
 ![](/assets/ubuntu-server/8.PNG)
-* **Step 10** : 
+* **Step 10** : Langkah selanjutnya adalah menambahkan file iso Ubuntu Server dan konfigurasi network Virtual Machine agar mendapatkan IP sendiri. Klik pada _Virtual Machine_ yang akan kita gunakan. Kemudian klik kanan dan tekan _Settinsg_. Setelah itu akan muncul dialog _Settings_.
+
+![](/assets/ubuntu-server/9.PNG)
 
 
 
