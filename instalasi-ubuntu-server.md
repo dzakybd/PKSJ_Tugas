@@ -86,6 +86,8 @@
 
 * **Step 23** : 
 
+![](/assets/ubuntu-server/22.PNG)
+
 
 
 
