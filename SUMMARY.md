@@ -15,7 +15,7 @@
 * [Uji coba ncrack](laporan-1/uji-coba-ncrack.md)
 * [Konfigurasi fail2ban](laporan-1/konfigurasi-fail2ban.md)
 * [Konfigurasi ssh non default](laporan-1/konfigurasi-ssh-non-default.md)
-* [Uji coba fail2ban](laporan-1/uji-coba-ncrack.md)
+* [Uji coba fail2ban](laporan-1/uji-coba-fail2ban.md)
 * [Kesimpulan dan Saran](laporan-1/kesimpulan-dan-saran.md)
 
 ## Laporan 2
