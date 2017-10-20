@@ -80,13 +80,30 @@
 
 ![](/assets/ubuntu-server/20.PNG) 
 
-* **Step 22** : Kemudian pilih keyboard layout dan tekan enter.
+* **Step 22** : Kemudian pilih _keyboard layout_ dan tekan enter.
 
 ![](/assets/ubuntu-server/21.PNG)
 
-* **Step 23** : 
+* **Step 23** : Setelah memilih _keyboard layout-, tunggu proses instalasi. Selanjutnya adalah mengatur hostname. Contoh hostnamenya adalah ubuntu.
 
-![](/assets/ubuntu-server/22.PNG)
+![](/assets/ubuntu-server/23.PNG)
+
+* **Step 24** : Selanjutnya adalah mengatur _Full name_ user.
+
+![](/assets/ubuntu-server/24.PNG)
+
+* **Step 25** : Selanjutnya adalah mengatur username_ user.
+
+![](/assets/ubuntu-server/25.PNG)
+
+* **Step 26** : Langkah selanjutnya adalah mengatur password. Password yang diatur adalah "kucinglucu". Kemudian tekan enter.
+
+![](/assets/ubuntu-server/26.PNG)
+
+* **Step 27** : Isikan lagi password "kucinglucu" kemudian tekan enter.
+
+![](/assets/ubuntu-server/27.PNG)
+
 
 
 
