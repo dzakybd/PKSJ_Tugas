@@ -6,10 +6,6 @@
 
 ## Laporan 1
 
-* [Dasar Teori](dasar-teori.md)
-* [Instalasi Ubuntu Server](instalasi-ubuntu-server.md)
-* [Instalasi Ubuntu Desktop](instalasi-ubuntu-desktop.md)
-* [Instalasi SSH Server](instalasi-ssh-server.md)
 * [Uji coba thc hydra](uji-coba-thc-hydra.md)
 * [Uji coba ncrack](uji-coba-ncrack.md)
 * [Konfigurasi fail2ban](konfigurasi-fail2ban.md)
@@ -30,5 +26,8 @@
 ## Laporan 1
 
 * [Pendahuluan](introduction/daftar-isi.md)
-* [rere](laporan-1/rere.md)
+* [Dasar Teori](dasar-teori.md)
+* [Instalasi Ubuntu Server](instalasi-ubuntu-server.md)
+* [Instalasi Ubuntu Desktop](instalasi-ubuntu-desktop.md)
+* [Instalasi SSH Server](instalasi-ssh-server.md)
 
