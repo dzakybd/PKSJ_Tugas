@@ -6,6 +6,7 @@
 
 ## Laporan 1
 
+* [Pendahuluan](introduction/daftar-isi.md)
 * [Dasar Teori](dasar-teori.md)
 * [Instalasi Ubuntu Server](instalasi-ubuntu-server.md)
 * [Instalasi Ubuntu Desktop](instalasi-ubuntu-desktop.md)
@@ -26,9 +27,4 @@
 * [Uji sql injection wpscan](laporan-2/uji-sql-injection-wpscan.md)
 * [Uji sql injection sqlmap](laporan-2/uji-sql-injection-sqlmap.md)
 * [Kesimpulan dan Saran](laporan-2/kesimpulan-dan-saran.md)
-
-## Laporan 1
-
-* [Pendahuluan](introduction/daftar-isi.md)
-* [rere](laporan-1/rere.md)
 
