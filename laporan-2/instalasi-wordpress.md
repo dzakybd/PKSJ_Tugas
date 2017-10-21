@@ -6,7 +6,11 @@
 ## Langkah-langkah Menginstall WordPress Pada Ubuntu 16.04
 1. Update terlebih dahulu`sudo apt-get update`
 2. Install Apache `sudo apt-get install apache2`
-3. Konfigurasi pada apache2.conf `sudo nano /etc/apache2/apache2.conf`
-4. 
+3. Konfigurasi pada apache2.conf dan tambahkan ServerName `sudo nano /etc/apache2/apache2.conf`
+![](/assets/wordpress/1_1.png)
+4. Lakukan pengecekan syntax `sudo apache2ctl configtest`
+5. Setelah melakukan perubahan, restart Aoache `sudo systemctl restart apache2`
+![](/assets/wordpress/2.png)
+6. Inisiasi aktivasi UFW firewall `sudo ufw app list` `sudo ufw app info "Apache Full"` `sudo ufw allow in "Apache Full"`
 
 
