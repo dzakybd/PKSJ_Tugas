@@ -48,19 +48,17 @@
 
 ![](/assets/ubuntu-server/10.PNG)
 
-* **Step 12** : Klik _Choose disk_ untuk menambahkan iso Ubuntu Server.
+* **Step 12** : Klik _Choose disk_ untuk menambahkan iso Ubuntu Desktop.
 
 ![](/assets/ubuntu-server/11.PNG)
 
 * **Step 13** : Pilih iso Ubuntu Dekstop dan klik tombol _Open_.
 
+![](/assets/ubuntu-desktop/1.png)
 
+* **Step 14** : Pada _Controller: IDE_ akan muncul _disc_ Ubuntu Dekstop.
 
-
-
-* **Step 14** : Pada _Controller: IDE_ akan muncul _disc_ Ubuntu Server.
-
-
+![](/assets/ubuntu-desktop/Screen Shot 2017-10-22 at 12.21.13.png)
 
 * **Step 15** : Langkah selanjutnya adalah konfigurasi interface internet _Virtual Machine_. Pada pilihan _Attached to_, pilih _Bridged Adapter_. Setelah itu pilih interface komputer yang akan dijadikan bridged. Setelah selesai konfigurasi interface, tekan tombol OK.
 
