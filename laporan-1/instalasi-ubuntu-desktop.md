@@ -50,11 +50,11 @@
 
 * **Step 12** : Pilih iso Ubuntu Dekstop dan klik tombol _Open_.
 
-![](/assets/ubuntu-desktop/1.png)
+![](/assets/ubuntu-desktop/pilih-iso.png)
 
 * **Step 13** : Pada _Controller: IDE_ akan muncul _disc_ Ubuntu Dekstop.
 
-![](/assets/ubuntu-desktop/Screen Shot 2017-10-22 at 12.21.13.png)
+![](/assets/ubuntu-desktop/iso.png)
 
 * **Step 14** : Langkah selanjutnya adalah konfigurasi interface internet _Virtual Machine_. Pada pilihan _Attached to_, pilih _Bridged Adapter_. Setelah itu pilih interface komputer yang akan dijadikan bridge. Setelah selesai konfigurasi interface, tekan tombol OK.
 
