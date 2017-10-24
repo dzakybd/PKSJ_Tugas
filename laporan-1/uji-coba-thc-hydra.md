@@ -15,8 +15,8 @@ make install
 SUPPORTED PLATFORMS
 -------------------
 - Semua platform UNIX (Linux, *bsd, Solaris, etc.)
-- MacOS (basically a BSD clone)
-- Windows dengan Cygwin (both IPv4 and IPv6)
+- MacOS
+- Windows dengan Cygwin (IPv4 and IPv6)
 - Mobile systems based on Linux, MacOS or QNX (e.g. Android, iPhone, Blackberry 10, Zaurus, iPad)
 
 CARA PENGGUNAAN
