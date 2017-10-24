@@ -1,11 +1,13 @@
 INSTALASI THC HYDRA
 -------------------
 **Step 1**    :
+
 Clone repository THC Hydra
 ```
 git clone https://github.com/vanhauser-thc/thc-hydra.git
 ```
 **Step 2**    :
+
 Untuk menkonfigurasi, compile dan menginstall Hydra, ketik kode berikut di terminal:
 ```
 cd thc-hydra
