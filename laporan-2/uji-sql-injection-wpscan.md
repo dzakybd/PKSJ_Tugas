@@ -5,6 +5,8 @@ Lakkukan instalasi `brew install wpscan`
 ## Pengujian semua vulnability yang terdapat dalam WordPress plugin yang telah di install
 1. Pastikan seluruh plugin yang ingin diuji telah diaktifkan
 2. Masukkan IP yang ingin diuji kedalam syntax `wpscan -u 10.151.36.103 --enumerate vp`
+3. Dibawah akan muncul hasil akhir dari pengujian
+
 ![](/assets/wpscan/1.png)
 
 
