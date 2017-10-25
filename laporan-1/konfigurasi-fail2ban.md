@@ -28,5 +28,9 @@
   `sudo iptables -S`
    
    ![](/assets/fail2ban/6.PNG)
+   
+   
+   
+Sumber : [How To Protect SSH with Fail2Ban on Ubuntu 14.04 - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-ubuntu-14-04)
 
  
