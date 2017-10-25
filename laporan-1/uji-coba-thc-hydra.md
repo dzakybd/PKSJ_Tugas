@@ -42,7 +42,7 @@ echo "kucinglucu" >> 500-worst-passwords.txt
 
 KESIMPULAN
 ----------
-Dengan uji coba yang telah dilakukan, THC Hydra dapat berhasil menyerang protokol ssh dengan _brute force attack_ jika password dari target terdapat didalam file password yang dibuat oleh penyerang. Jika password tidak terdapat dalam file, maka serangan akan gagal.
+Dengan uji coba yang telah dilakukan, THC Hydra dapat berhasil menyerang protokol ssh dengan _brute force attack_ jika password dari target terdapat didalam file password yang dibuat oleh penyerang dengan waktu 2 menit. Jika password tidak terdapat dalam file, maka serangan akan gagal.
 
 
 

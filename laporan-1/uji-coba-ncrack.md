@@ -35,6 +35,11 @@ Pertama, Siapkan file yang terdiri dari kumpulan password yang dipisahkan oleh b
 ```
 ncrack -p 22 --user root -P 500-worst-passwords.txt 10.151.254.180
 ```
+![](/assets/ncrack-hydra/ncrack-berhasil.png)
+KESIMPULAN
+----------
+Dengan uji coba yang telah dilakukan, Ncrack dapat berhasil menyerang protokol ssh dengan _brute force attack_ jika password dari target terdapat didalam file password yang dibuat oleh penyerang dengan waktu 90 detik, berarti proses serangan dengan Ncrack lebih cepat dari THC Hydra. Jika password tidak terdapat dalam file, maka serangan akan gagal.
+
 
 
 
