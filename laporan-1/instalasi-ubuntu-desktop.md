@@ -1,4 +1,4 @@
-## Instalasi Ubuntu Server
+## Instalasi Ubuntu Desktop
 
 #### Requirement
 
