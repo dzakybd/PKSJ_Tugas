@@ -29,12 +29,12 @@ UJI COBA
   hydra -l admin -p password ftp://[192.168.0.0/24]/
   hydra -L logins.txt -P pws.txt -M targets.txt ssh
 ```
-Pertama, Siapkan file yang terdiri dari kumpulan password yang dipisahkan oleh baris atau download [disini](assets/ncrack-hydra/500-worst-passwords.txt). Pada uji coba kali ini, kita akan mencoba melakukan _brute force attack_ pada protokol SSH ke ip address `10.151.36.98` dengan asumsi username `root` dan list password menggunakan file yang telah disiapkan, jalankan perintah dibawah ini pada terminal :
+Pertama, Siapkan file yang terdiri dari kumpulan password yang dipisahkan oleh baris atau download [disini](/assets/ncrack-hydra/500-worst-passwords.txt). Pada uji coba kali ini, kita akan mencoba melakukan _brute force attack_ pada protokol SSH ke ip address `10.151.36.98` dengan asumsi username `root` dan list password menggunakan file yang telah disiapkan, jalankan perintah dibawah ini pada terminal :
 ```
 hydra -l root -P 500-worst-passwords.txt 10.151.36.98 ssh
 ```
 ![](/assets/ncrack-hydra/hydra-gagal.png)
-Uji Coba gagal karena password yang digunakan tidak berada dalam file [500-worst-passwords.txt](assets/ncrack-hydra/500-worst-passwords.txt), tambahkan password yang digunakan dengan cara:
+Uji Coba gagal karena password yang digunakan tidak berada dalam file [500-worst-passwords.txt](/assets/ncrack-hydra/500-worst-passwords.txt), tambahkan password yang digunakan dengan cara:
 ```
 echo "kucinglucu" >> 500-worst-passwords.txt
 ```
