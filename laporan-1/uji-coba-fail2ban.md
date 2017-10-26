@@ -15,5 +15,7 @@
 ![](/assets/uji-fail2ban/2-ncrack.PNG)
 * **Step 5** : Pastikan ip yang terblok sama dengan ip komputer penyerang.
 
+![](/assets/ncrack-hydra/ifconfig.png)
+
 
 
