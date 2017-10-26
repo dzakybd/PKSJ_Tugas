@@ -13,3 +13,5 @@ WPScan adalah tool bawaan yang berfungsi untuk memindai tingkat atau masalah kea
 SQLMap, adalah tool opensource yang mendeteksi dan melakukan exploit pada bug SQL injection secara otomatis. dengan melakukan serangan SQL injection seorang attacker dapat mengambil alih serta memanipulasi sebuah database di dalam sebuah server.
 ## Hello Dolly
 Ini bukan hanya sebuah plugin, tapi juga melambangkan harapan dan antusiasme seluruh generasi yang dirangkum dalam dua kata yang dinyanyikan paling terkenal oleh Louis Armstrong: Halo, Dolly. Saat diaktifkan, Anda akan secara acak melihat lirik dari Hello, Dolly di kanan atas layar admin Anda di setiap halaman.
+## Akismet Anti-Spam
+Digunakan jutaan, Akismet sangat mungkin cara terbaik di dunia untuk melindungi blog Anda dari spam. Ini membuat situs Anda tetap terlindungi bahkan saat Anda tidur. Untuk memulai, cukup buka halaman Pengaturan Akismet Anda untuk menyiapkan kunci API Anda.
