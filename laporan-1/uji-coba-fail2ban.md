@@ -3,7 +3,7 @@
 #### Menggunakan Ncrack
 * **Step 1** : Siapkan list password, [500-worst-passwords.txt](/assets/ncrack-hydra/500-worst-passwords.txt)
 * **Step 2** : Masukkan perintah
-    `ncrack -p 22 --user administrator <user> -P <file password> <ip> -v`
+    `ncrack -p 22 --user <user> -P <file password> <ip> -v`
     
     Contoh:
     
@@ -21,6 +21,14 @@
 
 #### Menggunakan Hydra
 * **Step 1** : Siapkan list password, [500-worst-passwords.txt](/assets/ncrack-hydra/500-worst-passwords.txt)
+* **Step 2** : Masukkan perintah
+`hydra -l <user> -P <File password> <ip> ssh`
+
+Contoh
+`hydra -l administrator -P 500-worst-passwords.txt 10.151.36.59 ssh`
+
+![](/assets/uji-fail2ban/Screen Shot 2017-10-26 at 14.56.23.png)
+
 
 
 
