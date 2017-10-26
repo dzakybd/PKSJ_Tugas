@@ -13,5 +13,7 @@
 * **Step 4** : Pada gambar step 2, ncrack tidak berhasil menemukan password karena terblok dan dapat dilihat dengan perintah
 `sudo iptables -S`
 ![](/assets/uji-fail2ban/2-ncrack.PNG)
-* **Step 5** : Pastikan ip yang terblok sama dengan ip komputer penyerang
+* **Step 5** : Pastikan ip yang terblok sama dengan ip komputer penyerang.
+
+
 
