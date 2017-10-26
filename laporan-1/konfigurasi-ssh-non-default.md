@@ -12,3 +12,6 @@ Keterangan :
 * **ClientAliveInterval** dan **ClientAliveCountMax** : kedua parameter tersebut untuk mengatur waktu _disconnect_ saat user idle (user tidak melakukan apapun). Pada **ClientAliveInterval** memiliki nilai 300 yang artinya saat user idle selamat 5 menit, maka koneksi akan diputus.
 * **MaxAuthTries** : Paramater yang digunakan untuk mengatur berapa banyaknya percobaan login ketika seseorang mencoba melakukan akses ssh. 3 artinya 3 kali percobaan.
 
+
+Sumber : [https://devops.profitbricks.com/tutorials/secure-the-ssh-server-on-ubuntu/](https://devops.profitbricks.com/tutorials/secure-the-ssh-server-on-ubuntu/)
+
