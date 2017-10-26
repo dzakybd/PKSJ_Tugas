@@ -13,9 +13,11 @@
 * [Instalasi SSH Server](laporan-1/instalasi-ssh-server.md)
 * [Uji coba thc hydra](laporan-1/uji-coba-thc-hydra.md)
 * [Uji coba ncrack](laporan-1/uji-coba-ncrack.md)
+* [Uji coba medusa](laporan-1/uji-coba-medusa.md)
 * [Konfigurasi fail2ban](laporan-1/konfigurasi-fail2ban.md)
 * [Konfigurasi ssh non default](laporan-1/konfigurasi-ssh-non-default.md)
 * [Uji coba fail2ban](laporan-1/uji-coba-fail2ban.md)
+* [Uji coba denyhosts](laporan-1/uji-coba-denyhosts.md)
 * [Kesimpulan dan Saran](laporan-1/kesimpulan-dan-saran.md)
 
 ## Laporan 2
@@ -27,5 +29,4 @@
 * [Uji sql injection wpscan](laporan-2/uji-sql-injection-wpscan.md)
 * [Uji sql injection sqlmap](laporan-2/uji-sql-injection-sqlmap.md)
 * [Kesimpulan dan Saran](laporan-2/kesimpulan-dan-saran.md)
-
 
