@@ -1,4 +1,4 @@
-INSTALASI NCRACK
+I NSTALASI NCRACK
 ----------------
 - **Step 1**    : Download source code Ncrack
 ```

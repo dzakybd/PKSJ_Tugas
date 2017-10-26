@@ -1,0 +1,1 @@
+Saat setelah diblok harusnya ada di Iptables =S
