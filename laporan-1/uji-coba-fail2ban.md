@@ -27,7 +27,7 @@
 Contoh
 `hydra -l administrator -P 500-worst-passwords.txt 10.151.36.59 ssh`
 
-![](/assets/uji-fail2ban/Screen Shot 2017-10-26 at 14.56.23.png)
+![](/assets/uji-fail2ban/sc1.png)
 * **Step 3** : Tunggu hasilnya
 * **Step 4** : Pada gambar step 2, hydra tidak berhasil menemukan password karena terblok dan dapat dilihat dengan perintah
 `sudo iptables -S`
@@ -36,7 +36,7 @@ Contoh
 
 * **Step 5** : Pastikan ip yang terblok sama dengan ip komputer penyerang.
 
-![](/assets/uji-fail2ban/Screen Shot 2017-10-26 at 14.57.39.png)
+![](/assets/uji-fail2ban/sc2.png)
 
 
 
