@@ -65,5 +65,5 @@ Lalu uji coba lagi
 
 ## KESIMPULAN
 
-Dengan uji coba yang telah dilakukan, Medusa dapat berhasil menyerang protokol ssh dengan _brute force attack_ jika password dari target terdapat didalam file password yang dibuat oleh penyerang dengan waktu 2 menit. Jika password tidak terdapat dalam file, maka serangan akan gagal.
+Dengan uji coba yang telah dilakukan, Medusa dapat berhasil menyerang protokol ssh dengan _brute force attack_ jika password dari target terdapat didalam file password yang dibuat oleh penyerang dengan waktu 10 detik. Jika password tidak terdapat dalam file, maka serangan akan gagal.
 

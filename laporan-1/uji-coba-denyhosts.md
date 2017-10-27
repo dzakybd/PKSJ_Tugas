@@ -16,16 +16,16 @@
 **  Jangan lupa juga untuk memasukan IP sendiri**
 Formatnya penulisannya seperti berikut :
 
-```
-sshd: 192.168.56.201
-sshd: 192.168.56.202
-```
-atau mendatar seperti ini
-
-```
-sshd: 192.168.56.201, 192.168.56.202
-```
-
+  ```
+  sshd: 192.168.56.201
+  sshd: 192.168.56.202
+  ```
+  atau mendatar seperti ini
+  
+  ```
+  sshd: 192.168.56.201, 192.168.56.202
+  ```
+  
 * **Step 2**    : Restart service denyhosts
 
   ```
