@@ -46,7 +46,7 @@ sshd: 192.168.56.201, 192.168.56.202
 * **Melihat log**    : Melihat riwayat akses ssh
 
   ```
-tail /var/log/denyhosts
+  tail /var/log/denyhosts
   ```
 
 
