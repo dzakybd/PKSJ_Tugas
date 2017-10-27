@@ -9,4 +9,6 @@ DAFTAR ISI
 - [Uji Coba Ncrack](uji-coba-ncrack.md)
 - [Konfigurasi Fail2ban](konfigurasi-fail2ban.md)
 - [Uji Coba Fail2ban](uji-coba-fail2ban.md)
+- [Uji Coba Medusa](uji-coba-medusa.md)
+- [Uji Coba Denyhosts](uji-coba-denyhosts.md)
 - [Kesimpulan dan Saran](kesimpulan-dan-saran.md)
