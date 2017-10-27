@@ -5,8 +5,9 @@
   ```
   sudo apt-get install denyhosts
   ```
+## PENGGUNAAN DENYHOSTS
 
-* **Step 2**    : Konfigurasi Whitelist IP \(daftar IP yang dibolehkan mengakses ssh\)
+* **Step 1**    : Konfigurasi Whitelist IP \(daftar IP yang dibolehkan mengakses ssh\)
 
   ```
   sudo nano /etc/hosts.allow
@@ -25,7 +26,7 @@ atau mendatar seperti ini
 sshd: 192.168.56.201, 192.168.56.202
 ```
 
-* **Step 3**    : Restart service denyhosts
+* **Step 2**    : Restart service denyhosts
 
   ```
   systemctl restart denyhosts.service
@@ -36,17 +37,16 @@ sshd: 192.168.56.201, 192.168.56.202
 
 * **IP whitelisted**    : 192.168.56.201 akan masuk daftar whitelisted, berikut hasilnya
 
-
+![](/assets/denyhosts-hasil1.PNG)
 
 * **IP not whitelisted**    : 192.168.56.201 dihapus dari daftar whitelisted, berikut hasilnya
 
-
+![](/assets/denyhosts-hasil2.PNG)
 
 * **Melihat log**    : Melihat riwayat akses ssh
 
   ```
-tail -f /var/log/denyhosts
-tail -f /var/log/secure
+tail /var/log/denyhosts
   ```
 
 
