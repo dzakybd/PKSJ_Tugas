@@ -28,6 +28,11 @@ sshd: 192.168.56.201
 sshd: 192.168.56.202
 sshd: 10.151.254.180
 ```
+atau mendatar seperti ini
+
+```
+sshd: 192.168.56.201, 192.168.56.202
+```
 
 * **Step 3**    : Restart service denyhosts
 
