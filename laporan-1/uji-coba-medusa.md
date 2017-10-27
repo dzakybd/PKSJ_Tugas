@@ -54,15 +54,17 @@ medusa -u root -P 500-worst-passwords.txt -h 192.168.56.202 ssh
 ```
 
 ![](/assets/ncrack-hydra/hydra-gagal.png)  
-Uji Coba gagal karena password yang digunakan tidak berada dalam file [500-worst-passwords.txt](/assets/ncrack-hydra/500-worst-passwords.txt), tambahkan password yang digunakan dengan cara:
+Uji Coba gagal karena password yang digunakan tidak berada dalam file [500-worst-passwords.txt](/assets/ncrack-hydra/500-worst-passwords.txt),
+
+untuk keberhasilan uji coba kali ini, kita tambahkan password yang digunakan dengan cara:
 
 ```
-echo "kucinglucu" >> 500-worst-passwords.txt
+echo "pksj" >> 500-worst-passwords.txt
 ```
 
 ![](/assets/ncrack-hydra/hydra-sukses.png)
 
 ## KESIMPULAN
 
-Dengan uji coba yang telah dilakukan, THC Hydra dapat berhasil menyerang protokol ssh dengan _brute force attack_ jika password dari target terdapat didalam file password yang dibuat oleh penyerang dengan waktu 2 menit. Jika password tidak terdapat dalam file, maka serangan akan gagal.
+Dengan uji coba yang telah dilakukan, Medusa dapat berhasil menyerang protokol ssh dengan _brute force attack_ jika password dari target terdapat didalam file password yang dibuat oleh penyerang dengan waktu 2 menit. Jika password tidak terdapat dalam file, maka serangan akan gagal.
 
