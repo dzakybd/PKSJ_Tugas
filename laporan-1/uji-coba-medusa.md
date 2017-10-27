@@ -1,3 +1,22 @@
+## DEPENDENCY
+
+* OpenSSL
+* LibSSH2
+* NCPFS
+* LibPQ
+* Subversion
+* afpfs-ng
+
+Jika bekum memiliki dependency terebut maka medusa tidak dapat diinstall, berikut command install seluruh dependency :
+
+```
+sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu/ wheezy universe multiverse"
+
+sudo apt-get update
+
+sudo apt-get install build-essential make patch subversion openssl libssl-dev libncp-dev libpq-dev libgcrypt11-dev libgnutls-dev libsvn-dev zlib1g-dev libssh2-1-dev libnl-dev gettext autoconf tcl8.5 libpcap0.8-dev python-scapy python-dev cracklib-runtime macchanger-gtk tshark ethtool
+```
+
 ## INSTALASI MEDUSA
 
 * **Step 1**    : Download package medusa dari [foofus.net/goons/jmk/medusa/medusa.html](http://foofus.net/goons/jmk/medusa/medusa.html)
@@ -16,53 +35,27 @@
   make install
   ```
 
-## DEPENDENCY
-
-* OpenSSL
-* LibSSH2
-* NCPFS
-* LibPQ
-* Subversion
-* afpfs-ng
-
-Jika bekum memiliki dependency terebut maka medusa tidak dapat dijalankan, berikut command install seluruh dependency :
-
-```
-sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu/ wheezy universe multiverse"
-
-sudo apt-get update
-
-sudo apt-get install build-essential make patch subversion openssl libssl-dev libncp-dev libpq-dev libgcrypt11-dev libgnutls-dev libsvn-dev zlib1g-dev libssh2-1-dev libnl-dev gettext autoconf tcl8.5 libpcap0.8-dev python-scapy python-dev cracklib-runtime macchanger-gtk tshark ethtool
-```
-
 ## UJI COBA
 
-**Contoh**:
+Pertama, Siapkan file yang terdiri dari kumpulan password yang dipisahkan oleh baris atau download [disini](/assets/ncrack-hydra/500-worst-passwords.txt). Pada uji coba kali ini, kita akan mencoba melakukan _brute force attack_ pada protokol SSH ke ip address `192.168.56.202` dengan asumsi username `root` dan list password menggunakan file yang telah disiapkan
+
+**Command**:
 
 ```
-  hydra -l user -P passlist.txt ftp://192.168.0.1
-  hydra -L userlist.txt -p defaultpw imap://192.168.0.1/PLAIN
-  hydra -C defaults.txt -6 pop3s://[2001:db8::1]:143/TLS:DIGEST-MD5
-  hydra -l admin -p password ftp://[192.168.0.0/24]/
-  hydra -L logins.txt -P pws.txt -M targets.txt ssh
+medusa -h 192.168.56.202 -u "root" -P 500-worst-passwords.txt -M ssh
 ```
 
-Pertama, Siapkan file yang terdiri dari kumpulan password yang dipisahkan oleh baris atau download [disini](/assets/ncrack-hydra/500-worst-passwords.txt). Pada uji coba kali ini, kita akan mencoba melakukan _brute force attack_ pada protokol SSH ke ip address `192.168.56.202` dengan asumsi username `root` dan list password menggunakan file yang telah disiapkan, jalankan perintah dibawah ini pada terminal :
+-h adalah host, -u adalah user -P adalah list passwordnya, -M adalah module nya. Man page bisa dilihat [disini](http://www.irongeek.com/i.php?page=backtrack-r1-man-pages/medusa)
 
-```
-medusa -u root -P 500-worst-passwords.txt -h 192.168.56.202 ssh
-```
-
-![](/assets/ncrack-hydra/hydra-gagal.png)  
+Lalu tunggu hasilnya
+ 
 Uji Coba gagal karena password yang digunakan tidak berada dalam file [500-worst-passwords.txt](/assets/ncrack-hydra/500-worst-passwords.txt),
 
-untuk keberhasilan uji coba kali ini, kita tambahkan password yang digunakan dengan cara:
+Untuk keberhasilan uji coba kali ini, kita tambahkan password yang digunakan dengan cara:
 
 ```
 echo "pksj" >> 500-worst-passwords.txt
 ```
-
-![](/assets/ncrack-hydra/hydra-sukses.png)
 
 ## KESIMPULAN
 
