@@ -16,6 +16,8 @@
 * [Konfigurasi fail2ban](laporan-1/konfigurasi-fail2ban.md)
 * [Konfigurasi ssh non default](laporan-1/konfigurasi-ssh-non-default.md)
 * [Uji coba fail2ban](laporan-1/uji-coba-fail2ban.md)
+* [Uji coba medusa](laporan-1/uji-coba-medusa.md)
+* [Uji coba denyhosts](laporan-1/uji-coba-denyhosts.md)
 * [Kesimpulan dan Saran](laporan-1/kesimpulan-dan-saran.md)
 
 ## Laporan 2
