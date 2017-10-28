@@ -35,7 +35,7 @@
 
   * [Laporan 1](/laporan-1/README.md)
 
-  * [Laporan 2](/laporan-2/pendahulan.md)
+  * [Laporan 2](/laporan-2/README.md)
 
 
 
