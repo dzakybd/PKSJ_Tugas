@@ -5,4 +5,4 @@ DAFTAR ISI
 3. [Instalasi Plug-in](/laporan-2/instalasi-plugin.md)
 4. [Pengujian dengan WPScan](/laporan-2/uji-sql-injection-wpscan.md)
 5. [Pengujian dengan SQLMap](/laporan-2/uji-sql-injection-sqlmap.md)
-6. [Kesimpulan dan Saran](/laporan-1/kesimpulan-dan-saran.md)
+6. [Kesimpulan dan Saran](/laporan-2/kesimpulan-dan-saran.md)
