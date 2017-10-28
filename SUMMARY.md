@@ -22,7 +22,7 @@
 
 ## Laporan 2
 
-* [Pendahulan](laporan-2/pendahulan.md)
+* [Pendahulan](laporan-2/README.md)
 * [Dasar Teori](laporan-2/dasar-teori.md)
 * [Instalasi Wordpress](laporan-2/instalasi-wordpress.md)
 * [Instalasi plugin](laporan-2/instalasi-plugin.md)
