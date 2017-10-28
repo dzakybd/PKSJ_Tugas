@@ -49,7 +49,7 @@ medusa -h 192.168.56.202 -u "pksj" -P 500-worst-passwords.txt -M ssh
 
 Lalu tunggu hasilnya
 
-![](/assets/medusa-hasil1.PNG)
+![](/assets/medusa-denyhosts/medusa-hasil1.PNG)
   
 Uji coba gagal karena password yang digunakan tidak berada dalam file [500-worst-passwords.txt](/assets/ncrack-hydra/500-worst-passwords.txt),
 
@@ -61,7 +61,7 @@ echo "pksj" >> 500-worst-passwords.txt
 
 Lalu uji coba lagi
 
-![](/assets/medusa-hasil2.PNG)
+![](/assets/medusa-denyhosts/medusa-hasil2.PNG)
 
 ## KESIMPULAN
 

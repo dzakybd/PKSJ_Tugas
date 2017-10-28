@@ -37,11 +37,11 @@ Formatnya penulisannya seperti berikut :
 
 * **IP whitelisted**    : 192.168.56.201 akan masuk daftar whitelisted, berikut hasilnya
 
-![](/assets/denyhosts-hasil1.PNG)
+![](/assets/medusa-denyhosts/denyhosts-hasil1.PNG)
 
 * **IP not whitelisted**    : 192.168.56.201 dihapus dari daftar whitelisted, berikut hasilnya
 
-![](/assets/denyhosts-hasil2.PNG)
+![](/assets/medusa-denyhosts/denyhosts-hasil2.PNG)
 
 * **Melihat log**    : Melihat riwayat akses ssh
 

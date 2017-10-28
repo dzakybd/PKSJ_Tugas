@@ -21,7 +21,7 @@
 ##### Ubuntu Server #####
 Pada saat instalasi Ubuntu Server 16.04 LTS kita akan disuguhkan menu *Software Selection*
  
-![Openssh install](https://i.imgur.com/Yf7C3Wj.png)
+![](/assets/ubuntu-server/opsi-openssh.png)
 
 Untuk menginstall SSH kita pilih saja OpenSSH lalu Continue. Maka SSH akan terinstall
 
