@@ -28,7 +28,7 @@
 * [Instalasi plugin](laporan-2/instalasi-plugin.md)
 * [Uji coba wpscan](laporan-2/uji-sql-injection-wpscan.md)
 * [Uji coba sqlmap](laporan-2/uji-sql-injection-sqlmap.md)
-* [Uji coba nitko](laporan-2/uji-coba-nitko.md)
+* [Uji coba nikto](laporan-2/uji-coba-nikto.md)
 * [Uji coba burpsuite](laporan-2/uji-coba-burpsuite.md)
 * [Kesimpulan dan Saran](laporan-2/kesimpulan-dan-saran.md)
 

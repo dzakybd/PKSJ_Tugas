@@ -4,7 +4,7 @@
 - [Instalasi Plug-in](instalasi-plugin.md)
 * [Uji Coba Wpscan](uji-sql-injection-wpscan.md)
 * [Uji Coba Sqlmap](uji-sql-injection-sqlmap.md)
-* [Uji Coba Nitko](uji-coba-nitko.md)
+* [Uji Coba Nikto](uji-coba-nikto.md)
 * [Uji Coba Burpsuite](uji-coba-burpsuite.md)
 - [Kesimpulan dan Saran](kesimpulan-dan-saran.md)
 
