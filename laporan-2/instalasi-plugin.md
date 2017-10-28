@@ -24,4 +24,3 @@ yang sudah di download dan klik "Install
 ![](/assets/plugin-wordpress/6.PNG)
 - Maka Anda akan melihat plugin sudah terinstal di daftar plugin
 ![](/assets/plugin-wordpress/7.PNG)
-
