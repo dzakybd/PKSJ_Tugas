@@ -41,11 +41,11 @@ SQLMap, adalah tool opensource yang mendeteksi dan melakukan exploit pada bug SQ
 
 ## Nikto
 
-![](/assets/nikto.PNG)
+![](/assets/nikto-themole/nikto.PNG)
 Nikto adalah open source vulnerability web scanner. Nikto akan menyediakan proses yang mudah dan cepat dalam mencari tau malicious program dan file di suatu host.
 
 ## The Mole
 
-![](/assets/themole.PNG)
+![](/assets/nikto-themole/themole.PNG)
 The Mole adalah automatic SQL injection berbasis bahasa python. Fungsi kerjanya sama dengan sqlmap, menjadi tool alternatif dari sqlmap.
 

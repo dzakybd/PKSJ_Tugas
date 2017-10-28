@@ -1,4 +1,4 @@
-## INSTALASI MEDUSA
+## INSTALASI NIKTO
 
 * **Step 1**    : Install package nikto
   ```
