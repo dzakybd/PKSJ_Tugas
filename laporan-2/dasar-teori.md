@@ -41,9 +41,11 @@ SQLMap, adalah tool opensource yang mendeteksi dan melakukan exploit pada bug SQ
 
 ## Nikto
 
+![](/assets/nikto.PNG)
 Nikto adalah open source vulnerability web scanner. Nikto akan menyediakan proses yang mudah dan cepat dalam mencari tau malicious program dan file di suatu host.
 
-## Burp Suite
+## The Mole
 
-Burp suite adalah platform yang digunakan dalam web application security testing. Berisikan macam-macam tool yang bisa memudahkan kita daam testing proses, analisis serangan, mencari kerawanan.
+![](/assets/themole.PNG)
+The Mole adalah automatic SQL injection berbasis bahasa python. Fungsi kerjanya sama dengan sqlmap, menjadi tool alternatif dari sqlmap.
 

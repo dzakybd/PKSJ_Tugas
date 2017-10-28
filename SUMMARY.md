@@ -29,7 +29,7 @@
 * [Uji coba wpscan](laporan-2/uji-sql-injection-wpscan.md)
 * [Uji coba sqlmap](laporan-2/uji-sql-injection-sqlmap.md)
 * [Uji coba nikto](laporan-2/uji-coba-nikto.md)
-* [Uji coba burpsuite](laporan-2/uji-coba-burpsuite.md)
+* [Uji coba themole](laporan-2/uji-coba-themole.md)
 * [Kesimpulan dan Saran](laporan-2/kesimpulan-dan-saran.md)
 
 

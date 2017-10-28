@@ -5,7 +5,7 @@
 * [Uji Coba Wpscan](uji-sql-injection-wpscan.md)
 * [Uji Coba Sqlmap](uji-sql-injection-sqlmap.md)
 * [Uji Coba Nikto](uji-coba-nikto.md)
-* [Uji Coba Burpsuite](uji-coba-burpsuite.md)
+* [Uji Coba The Mole](uji-coba-themole.md)
 - [Kesimpulan dan Saran](kesimpulan-dan-saran.md)
 
 ### PENDAHULUAN
@@ -21,4 +21,4 @@ Tool :
 - **WPSCAN**
 - **SQLMAP**
 - **NITKO**
-- **BURPSUITE**
+- **THEMOLE**
