@@ -20,6 +20,17 @@
 * [Uji coba denyhosts](laporan-1/uji-coba-denyhosts.md)
 * [Kesimpulan dan Saran](laporan-1/kesimpulan-dan-saran.md)
 
+## Laporan Final
+
+* Konfigurasi Mutillidae
+* Uji Coba Mutillidae
+* Instalasi Cuckoo
+* Konfigurasi Cuckoo
+* Uji Coba Cuckoo
+* [Instalasi Snort](laporan-final/instalasi-snort.md)
+* Konfigurasi Snort
+* Uji Coba Snort
+
 ## Laporan 2
 
 * [Pendahulan](laporan-2/README.md)
@@ -31,5 +42,4 @@
 * [Uji coba nikto](laporan-2/uji-coba-nikto.md)
 * [Uji coba themole](laporan-2/uji-coba-themole.md)
 * [Kesimpulan dan Saran](laporan-2/kesimpulan-dan-saran.md)
-
 
