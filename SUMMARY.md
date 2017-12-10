@@ -22,14 +22,14 @@
 
 ## Laporan Final
 
-* Konfigurasi Mutillidae
-* Uji Coba Mutillidae
-* Instalasi Cuckoo
-* Konfigurasi Cuckoo
-* Uji Coba Cuckoo
+* [Konfigurasi Mutillidae](laporan-final/konfigurasi-mutillidae.md)
+* [Uji Coba Mutillidae](laporan-final/uji-coba-mutillidae.md)
+* [Instalasi Cuckoo](laporan-final/instalasi-cuckoo.md)
+* [Konfigurasi Cuckoo](laporan-final/konfigurasi-cuckoo.md)
+* [Uji Coba Cuckoo](laporan-final/uji-coba-cuckoo.md)
 * [Instalasi Snort](laporan-final/instalasi-snort.md)
-* Konfigurasi Snort
-* Uji Coba Snort
+* [Konfigurasi Snort](laporan-final/konfigurasi-snort.md)
+* [Uji Coba Snort](laporan-final/uji-coba-snort.md)
 
 ## Laporan 2
 
