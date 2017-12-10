@@ -22,6 +22,8 @@
 
 ## Laporan Final
 
+* [Pendahuluan](laporan-final/pendahuluan.md)
+* [Dasar Teori](laporan-final/dasar-teori.md)
 * [Konfigurasi Mutillidae](laporan-final/konfigurasi-mutillidae.md)
 * [Uji Coba Mutillidae](laporan-final/uji-coba-mutillidae.md)
 * [Instalasi Cuckoo](laporan-final/instalasi-cuckoo.md)
