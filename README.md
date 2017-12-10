@@ -31,12 +31,13 @@
 
 ## Tugas
 
-  * [Laporan 1](/laporan-1/README.md)
+  * [LAPORAN 1](/laporan-1/README.md)
 
-  * [Laporan 2](/laporan-2/README.md)
+  * [LAPORAN 2](/laporan-2/README.md)
   
 ## Tugas Akhir
 
+  * [Laporan FINAL](/laporan-final/pendahuluan.md)
 
 
 
