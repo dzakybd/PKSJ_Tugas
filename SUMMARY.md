@@ -32,6 +32,7 @@
 * [Instalasi Snort](laporan-final/instalasi-snort.md)
 * [Konfigurasi Snort](laporan-final/konfigurasi-snort.md)
 * [Uji Coba Snort](laporan-final/uji-coba-snort.md)
+* [Kesimpulan dan Saran](laporan-final/kesimpulan-dan-saran.md)
 
 ## Laporan 2
 
