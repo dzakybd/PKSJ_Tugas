@@ -8,4 +8,12 @@ Lesson 5
     ![](/assets/lesson-5/quote_test.png)
 - **Step 3**    : Anda akan mendapatkan error, jika terjadi error setelah anda login dengan **Name** `'`, berarti backend dari sistem rentan terhadap SQL Injection
     ![](/assets/lesson-5/quote_test_error.png)
+    - Query yang dihasilkan:
+    ```
+    SELECT * FROM accounts WHERE username=''' AND password=''
+    ```
+    - Query Normal:
+    ```
+    SELECT * FROM accounts WHERE username='admin' AND password='adminpass'
+    ```
     
