@@ -1,6 +1,6 @@
 Konfirgurasi Multilidae
 -----------------------
-Multilidae sudah langsung terinstall pada virtual machine Metasploitable
+Multilidae sudah langsung terinstall pada virtual machine Metasploitable. Sebelum menggunakannya, ada beberapa tahap untuk konfigurasi Multilidae 
 - **Step 1**    : Ganti nama database Multilidae
     - Akses **config.inc**
     ```
@@ -22,6 +22,10 @@ Multilidae sudah langsung terinstall pada virtual machine Metasploitable
 ```
 http://10.151.36.64/mutillidae/
 ```
-- **Step 2**    : 
+![](/assets/konfigurasi-multilidae/multilidae_home.png)
+- **Step 3**    : Reset DB untuk membuat struktur basis data dari Multilidae ke MySQL pada Metasploitable
+![](/assets/konfigurasi-multilidae/reset_db.png)
+
+Mulitilidae sudah siap digunakan
 
 
