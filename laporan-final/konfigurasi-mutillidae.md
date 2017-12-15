@@ -19,12 +19,12 @@ Multilidae sudah langsung terinstall pada virtual machine Metasploitable. Sebelu
     ```
 
 - **Step 2**    : Akses Multilidae pada Metasploitable
-```
-http://10.151.36.64/mutillidae/
-```
-![](/assets/konfigurasi-multilidae/multilidae_home.png)
+    ```
+    http://10.151.36.64/mutillidae/
+    ```
+    ![](/assets/konfigurasi-multilidae/multilidae_home.png)
 - **Step 3**    : Reset DB untuk membuat struktur basis data dari Multilidae ke MySQL pada Metasploitable
-![](/assets/konfigurasi-multilidae/reset_db.png)
+    ![](/assets/konfigurasi-multilidae/reset_db.png)
 
 Mulitilidae sudah siap digunakan
 
