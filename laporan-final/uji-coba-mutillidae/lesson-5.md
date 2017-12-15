@@ -22,8 +22,7 @@ Lesson 5
 - **Step 2**    : Ketik `' or 1=1-- ` di kolom **Name** dengan spasi di akhir `-- `
 - **Step 3**    : Klik Login
     ![](/laporan-1/assets/lesson-5/login2.png)
-- **Step 4**    : Anda akan berhasil login dengan akun Admin karena Admin berada pada urutan paling atas
-    Dengan kondisi `1=1` maka akan menghasilkan kondisi yang selalu benar dan `-- ` berguna untuk comment pada SQL, karena itu query selanjutnya akan dibatalkan **(AND password='')**.
+- **Step 4**    : Anda akan berhasil login dengan akun Admin karena Admin berada pada urutan paling atas pada database. Dengan kondisi `1=1` maka akan menghasilkan kondisi yang selalu benar dan `-- ` berguna untuk comment pada SQL, karena itu query selanjutnya akan dibatalkan **(AND password='')**.
     ![](/laporan-1/assets/lesson-5/login2_berhasil.png)
     - Query yang dihasilkan:
     ```
