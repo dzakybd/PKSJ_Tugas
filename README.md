@@ -37,7 +37,7 @@
   
 ## Tugas Akhir
 
-  * [LAPORAN FINAL](/laporan-final/pendahuluan.md)
+  * [LAPORAN FINAL PROJECT](/laporan-final/pendahuluan.md)
 
 
 
