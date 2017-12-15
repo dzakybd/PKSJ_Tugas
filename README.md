@@ -31,11 +31,16 @@
 
 ## Tugas
 
-* Tugas 1
+  * [LAPORAN 1](/laporan-1/README.md)
 
-  * [Laporan 1](/laporan-1/README.md)
+  * [LAPORAN 2](/laporan-2/README.md)
+  
+## Tugas Akhir
 
-  * [Laporan 2](/laporan-2/README.md)
+  * [LAPORAN FINAL](/laporan-final/pendahuluan.md)
+
+
+
 
 
 

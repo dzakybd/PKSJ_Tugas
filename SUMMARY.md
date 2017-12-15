@@ -20,6 +20,20 @@
 * [Uji coba denyhosts](laporan-1/uji-coba-denyhosts.md)
 * [Kesimpulan dan Saran](laporan-1/kesimpulan-dan-saran.md)
 
+## Laporan Final
+
+* [Pendahuluan](laporan-final/pendahuluan.md)
+* [Dasar Teori](laporan-final/dasar-teori.md)
+* [Konfigurasi Mutillidae](laporan-final/konfigurasi-mutillidae.md)
+* [Uji Coba Mutillidae](laporan-final/uji-coba-mutillidae.md)
+* [Instalasi Cuckoo](laporan-final/instalasi-cuckoo.md)
+* [Konfigurasi Cuckoo](laporan-final/konfigurasi-cuckoo.md)
+* [Uji Coba Cuckoo](laporan-final/uji-coba-cuckoo.md)
+* [Instalasi Snort](laporan-final/instalasi-snort.md)
+* [Konfigurasi Snort](laporan-final/konfigurasi-snort.md)
+* [Uji Coba Snort](laporan-final/uji-coba-snort.md)
+* [Kesimpulan dan Saran](laporan-final/kesimpulan-dan-saran.md)
+
 ## Laporan 2
 
 * [Pendahulan](laporan-2/README.md)
@@ -31,5 +45,4 @@
 * [Uji coba nikto](laporan-2/uji-coba-nikto.md)
 * [Uji coba themole](laporan-2/uji-coba-themole.md)
 * [Kesimpulan dan Saran](laporan-2/kesimpulan-dan-saran.md)
-
 
