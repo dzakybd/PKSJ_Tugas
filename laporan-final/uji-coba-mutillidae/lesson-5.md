@@ -1,6 +1,6 @@
 Lesson 5
 --------
-###SQL Injection: Single Quote Test On Username Field
+### SQL Injection: Single Quote Test On Username Field
 - **Step 1**    : Buka Login/Register
     ![](/assets/lesson-5/login-register.png)
 - **Step 2**    : Ketik `'` di kolom **Name**    
@@ -17,7 +17,7 @@ Lesson 5
     SELECT * FROM accounts WHERE username='admin' AND password='adminpass'
     ```
     
-###SQL Injection: By-Pass Password Without Username (Obtain Access #1)
+### SQL Injection: By-Pass Password Without Username (Obtain Access #1)
 - **Step 1**    : Buka Login/Register
 - **Step 2**    : Ketik `' or 1=1-- ` di kolom **Name** dengan spasi di akhir `-- `
 - **Step 3**    : Klik Login
