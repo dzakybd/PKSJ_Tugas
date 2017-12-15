@@ -1,12 +1,12 @@
 Konfirgurasi Multilidae
 -----------------------
 Multilidae sudah langsung terinstall pada virtual machine Metasploitable
-- **Step 1**    : Ganti nama database multilidae
-    - Akses config.inc
+- **Step 1**    : Ganti nama database Multilidae
+    - Akses **config.inc**
     ```
     nano /var/www/multilidae/config.inc
     ```
-    - Ganti isi config.inc menjadi berikut
+    - Ganti isi __**config.inc**__ menjadi berikut
     ```
     <?php
         /* NOTE: On Samurai, the $dbpass password is "samurai" rather than blank */
@@ -18,7 +18,7 @@ Multilidae sudah langsung terinstall pada virtual machine Metasploitable
     ?>
     ```
 
-- **Step 2**    : Akses multilidae pada metasploitable
+- **Step 2**    : Akses Multilidae pada Metasploitable
 ```
 http://10.151.36.64/mutillidae/
 ```
