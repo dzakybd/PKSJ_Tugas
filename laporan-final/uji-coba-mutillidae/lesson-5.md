@@ -41,7 +41,7 @@ Lesson 5
     ![](/laporan-1/assets/lesson-5/inspect-element-password.png)
 - **Step 5**    : Ganti `password` dengan kata `text` pada element **type**.
     ![](/laporan-1/assets/lesson-5/inspect-password-to-text.png)
-- **Step 6**    : Ketik `'` di kolom **Name**.
+- **Step 6**    : Ketik `'` di kolom **Password**.
 - **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
     ![](/laporan-1/assets/lesson-5/inspect-password-not-obfuscated.png)
     - Anda akan mendapatkan error
@@ -55,7 +55,15 @@ Lesson 5
         ```
         SELECT * FROM accounts WHERE username='samurai' AND password='samurai'
         ```
-
+### SQL Injection: Single Quote Test On Password Field (Obtain Access #2)
+- **Step 1**    : Buka Login/Register.
+- **Step 2**    : Ketik `samurai` di kolom **Name**.
+- **Step 3**    : Klik Kanan di kolom **Password**.
+- **Step 4**    : Klik **Inspect Element**.
+    ![](/laporan-1/assets/lesson-5/inspect-element-password.png)
+- **Step 5**    : Ganti `password` dengan kata `text` pada element **type**.
+    ![](/laporan-1/assets/lesson-5/inspect-password-to-text.png)
+- **Step 6**    : Ketik `' or 1=1-- ` di kolom **Password**. Jangan lupa memberikan spasi setelah `-- `
 
 
 
