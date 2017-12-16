@@ -46,7 +46,7 @@ Lesson 5
     ![](/laporan-1/assets/lesson-5/inspect-password-not-obfuscated.png)
     - Anda akan mendapatkan error
         ![](/laporan-1/assets/lesson-5/password-login-error.png)
-    - Query di backend menjadi error, mengindikasikan bahwa backend dari sistem ini rentan terhadap SQL Injection.
+    - Query di backend menjadi error, mengindikasikan bahwa backend dari sistem rentan terhadap SQL Injection.
     - Query yang dihasilkan:
         ```
         SELECT * FROM accounts WHERE username='samurai' and password='''
