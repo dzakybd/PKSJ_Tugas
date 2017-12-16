@@ -37,7 +37,10 @@ Lesson 5
 - **Step 1**    : Buka Login/Register
 - **Step 2**    : Ketik `samurai` di kolom **Name**
 - **Step 3**    : Klik Kanan di kolom **Password**
-- **step 4**    : Klik **Inspect Element**
+- **Step 4**    : Klik **Inspect Element**
+    ![](/laporan-1/assets/lesson-5/inspect-element-password.png)
+- **Step 4**    : Ganti `password` dengan kata `text`
+
 
 
 
