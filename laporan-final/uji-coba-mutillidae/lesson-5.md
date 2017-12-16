@@ -34,12 +34,28 @@ Lesson 5
     ```
     
 ### SQL Injection: Single Quote Test On Password Field
-- **Step 1**    : Buka Login/Register
-- **Step 2**    : Ketik `samurai` di kolom **Name**
-- **Step 3**    : Klik Kanan di kolom **Password**
-- **Step 4**    : Klik **Inspect Element**
+- **Step 1**    : Buka Login/Register.
+- **Step 2**    : Ketik `samurai` di kolom **Name**.
+- **Step 3**    : Klik Kanan di kolom **Password**.
+- **Step 4**    : Klik **Inspect Element**.
     ![](/laporan-1/assets/lesson-5/inspect-element-password.png)
-- **Step 4**    : Ganti `password` dengan kata `text`
+- **Step 5**    : Ganti `password` dengan kata `text` pada element **type**.
+    ![](/laporan-1/assets/lesson-5/inspect-password-to-text.png)
+- **Step 6**    : Ketik `'` di kolom **Name**.
+- **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
+    ![](/laporan-1/assets/lesson-5/inspect-password-not-obfuscated.png)
+    - Anda akan mendapatkan error
+        ![](/laporan-1/assets/lesson-5/password-login-error.png)
+    - Query di backend menjadi error, mengindikasikan bahwa backend dari sistem ini rentan terhadap SQL Injection.
+    - Query yang dihasilkan:
+        ```
+        SELECT * FROM accounts WHERE username='samurai' and password='''
+        ```
+    - Query Normal:
+        ```
+        SELECT * FROM accounts WHERE username='samurai' AND password='samurai'
+        ```
+
 
 
 
