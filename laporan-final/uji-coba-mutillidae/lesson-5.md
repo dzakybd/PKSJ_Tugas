@@ -89,6 +89,12 @@ Lesson 5
     SELECT * FROM accounts WHERE username='samurai' AND password='' or (1=1 and username='samurai')-- '
     ```
 
+### Database Practice
+- **Step 1**    : SSH Metasploitable dengan username `msfadmin` dan password `msfadmin`.
+    ```
+    ssh msfadmin@10.151.36.64
+    ```
+
 
 
 
