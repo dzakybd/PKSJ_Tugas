@@ -33,3 +33,14 @@ Lesson 5
     SELECT * FROM accounts WHERE username='' or 1=1
     ```
     
+### SQL Injection: Single Quote Test On Password Field
+- **Step 1**    : Buka Login/Register
+- **Step 2**    : Ketik `samurai` di kolom **Name**
+- **Step 3**    : Klik Kanan di kolom **Password**
+- **step 4**    : Klik **Inspect Element**
+
+
+
+
+
+    
