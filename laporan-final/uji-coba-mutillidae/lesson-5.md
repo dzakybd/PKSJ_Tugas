@@ -65,7 +65,10 @@ Lesson 5
     ![](/laporan-1/assets/lesson-5/inspect-password-to-text.png)
 - **Step 6**    : Ketik `' or 1=1-- ` di kolom **Password**. Jangan lupa memberikan spasi setelah `-- `
 - **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
-
+    ![](/laporan-1/assets/lesson-5/inspect-password-not-obfuscated.png)
+    - Anda akan tetap terlogin sebagai admin bukan samurai, Karena Admin berada pada urutan atas dari hasil query. Hal ini disebabkan oleh desain dari program Multilidae.
+    ![](/laporan-1/assets/lesson-5/password-login-admin.png)
+- **Step 8**    : Logout
 
 
 
