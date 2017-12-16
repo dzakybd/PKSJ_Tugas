@@ -64,6 +64,9 @@ Lesson 5
 - **Step 5**    : Ganti `password` dengan kata `text` pada element **type**.
     ![](/laporan-1/assets/lesson-5/inspect-password-to-text.png)
 - **Step 6**    : Ketik `' or 1=1-- ` di kolom **Password**. Jangan lupa memberikan spasi setelah `-- `
+- **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
+
+
 
 
 
