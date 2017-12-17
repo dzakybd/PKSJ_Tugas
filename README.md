@@ -23,24 +23,21 @@
 ```
 
 ## Anggota
-1. Fathoni Adi Kurniawan (5114100020)
-2. Dzaky Zakiyal Fawwaz (5114100067)
-3. Muhammad Hilman (5114100069)
-4. Fikry Khairytamim (5114100192)
 
+1. Fathoni Adi Kurniawan \(5114100020\)
+2. Dzaky Zakiyal Fawwaz \(5114100067\)
+3. Muhammad Hilman \(5114100069\)
+4. Fikry Khairytamim \(5114100192\)
 
 ## Tugas
 
-  * [LAPORAN 1](/laporan-1/README.md)
+* [LAPORAN 1](/laporan-1/README.md)
 
-  * [LAPORAN 2](/laporan-2/README.md)
-  
+* [LAPORAN 2](/laporan-2/README.md)
+
 ## Tugas Akhir
 
-  * [LAPORAN FINAL PROJECT](/laporan-final/pendahuluan.md)
-
-
-
+* [LAPORAN FINAL PROJECT](/laporan-final/pendahuluan.md)
 
 
 
