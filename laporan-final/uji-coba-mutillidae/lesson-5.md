@@ -33,3 +33,70 @@ Lesson 5
     SELECT * FROM accounts WHERE username='' or 1=1
     ```
     
+### SQL Injection: Single Quote Test On Password Field
+- **Step 1**    : Buka Login/Register.
+- **Step 2**    : Ketik `samurai` di kolom **Name**.
+- **Step 3**    : Klik Kanan di kolom **Password**.
+- **Step 4**    : Klik **Inspect Element**.
+    ![](/laporan-1/assets/lesson-5/inspect-element-password.png)
+- **Step 5**    : Ganti `password` dengan kata `text` pada element **type**.
+    ![](/laporan-1/assets/lesson-5/inspect-password-to-text.png)
+- **Step 6**    : Ketik `'` di kolom **Password**.
+- **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
+    ![](/laporan-1/assets/lesson-5/inspect-password-not-obfuscated.png)
+    - Anda akan mendapatkan error
+        ![](/laporan-1/assets/lesson-5/password-login-error.png)
+    - Query di backend menjadi error, mengindikasikan bahwa backend dari sistem rentan terhadap SQL Injection.
+    - Query yang dihasilkan:
+        ```
+        SELECT * FROM accounts WHERE username='samurai' and password='''
+        ```
+    - Query Normal:
+        ```
+        SELECT * FROM accounts WHERE username='samurai' AND password='samurai'
+        ```
+        
+### SQL Injection: Single Quote Test On Password Field (Obtain Access #2)
+- **Step 1**    : Buka Login/Register.
+- **Step 2**    : Ketik `samurai` di kolom **Name**.
+- **Step 3**    : Klik Kanan di kolom **Password**.
+- **Step 4**    : Klik **Inspect Element**.
+    ![](/laporan-1/assets/lesson-5/inspect-element-password.png)
+- **Step 5**    : Ganti `password` dengan kata `text` pada element **type**.
+    ![](/laporan-1/assets/lesson-5/inspect-password-to-text.png)
+- **Step 6**    : Ketik `' or 1=1-- ` di kolom **Password**. Jangan lupa memberikan spasi setelah `-- `
+- **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
+    ![](/laporan-1/assets/lesson-5/non-obfused-pass-1.png)
+    - Anda akan tetap terlogin sebagai admin bukan samurai, Karena Admin berada pada urutan atas dari hasil query. Hal ini disebabkan oleh desain dari program Multilidae.
+    ![](/laporan-1/assets/lesson-5/password-login-admin.png)
+- **Step 8**    : Logout
+
+### SQL Injection: Single Quote Test On Password Field (Obtain Access #3)
+- **Step 1**    : Buka Login/Register.
+- **Step 2**    : Ketik `samurai` di kolom **Name**.
+- **Step 3**    : Klik Kanan di kolom **Password**.
+- **Step 4**    : Klik **Inspect Element**.
+    ![](/laporan-1/assets/lesson-5/inspect-element-password.png)
+- **Step 5**    : Ganti `password` dengan kata `text` pada elemen **type**. Ganti elemen maxlength menjadi `50` dan elemen size menjadi `50`
+    ![](/laporan-1/assets/lesson-5/inspect-password-size.png)
+- **Step 6**    : Ketik `' or (1=1 and username='samurai')-- ` di kolom **Password**. Jangan lupa memberikan spasi setelah `-- `
+- **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
+    ![](/laporan-1/assets/lesson-5/non-obfused-pass-2.png)
+    - Anda akan berhasil login sebagai `samurai`
+    ![](/laporan-1/assets/lesson-5/samurai-logged-in.png)
+    - Query yang dihasilkan
+    ```
+    SELECT * FROM accounts WHERE username='samurai' AND password='' or (1=1 and username='samurai')-- '
+    ```
+
+### Database Practice
+- **Step 1**    : SSH Metasploitable dengan username `msfadmin` dan password `msfadmin`.
+    ```
+    ssh msfadmin@10.151.36.64
+    ```
+
+
+
+
+
+    
