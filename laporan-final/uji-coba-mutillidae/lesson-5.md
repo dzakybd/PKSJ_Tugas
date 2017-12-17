@@ -68,7 +68,7 @@ Lesson 5
 - **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
     ![]/assets/lesson-5/non-obfused-pass-1.png)
     - Anda akan tetap terlogin sebagai admin bukan samurai, Karena Admin berada pada urutan atas dari hasil query. Hal ini disebabkan oleh desain dari program Multilidae.
-    ![](/assets/lesson-5/password-login-admin.png)
+        ![](/assets/lesson-5/password-login-admin.png)
 - **Step 8**    : Logout
 
 ### SQL Injection: Single Quote Test On Password Field (Obtain Access #3)
@@ -83,11 +83,11 @@ Lesson 5
 - **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
     ![](/assets/lesson-5/non-obfused-pass-2.png)
     - Anda akan berhasil login sebagai `samurai`
-    ![](/assets/lesson-5/samurai-logged-in.png)
+        ![](/assets/lesson-5/samurai-logged-in.png)
     - Query yang dihasilkan
-    ```
-    SELECT * FROM accounts WHERE username='samurai' AND password='' or (1=1 and username='samurai')-- '
-    ```
+        ```
+        SELECT * FROM accounts WHERE username='samurai' AND password='' or (1=1 and username='samurai')-- '
+        ```
 
 ### Database Practice
 - **Step 1**    : SSH Metasploitable dengan username `msfadmin` dan password `msfadmin`.
