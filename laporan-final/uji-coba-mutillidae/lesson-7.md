@@ -1,5 +1,5 @@
 Lesson 7
 --------
 ### SQL Injection, Burpsuite, cURL, Perl Parser
-#### Penggunaan 
+#### Section 7: Start Web Browser Session to Mutillidae
 
