@@ -128,6 +128,9 @@ Lesson 5
     ![](/assets/lesson-5/db_query_1.png)
     - `select * from accounts where username = 'samurai' and password = '' or (1=1 and username = 'samurai'); -- ';`, dari section 11, step 6.
     ![](/assets/lesson-5/db_query_2.png)
+
+### Proof of Lab
+![](/assets/lesson-5/proof_of_lab.png)
     
 
 
