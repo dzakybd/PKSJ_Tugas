@@ -94,7 +94,10 @@ Lesson 5
     ```
     ssh msfadmin@10.151.36.64
     ```
-
+- **Step 2**    : Login MySQL dengan user `root` tanpa password
+    ```
+    mysql -u root
+    ```
 
 
 
