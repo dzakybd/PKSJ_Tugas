@@ -27,6 +27,7 @@
 * [Konfigurasi Mutillidae](laporan-final/konfigurasi-mutillidae.md)
 * [Uji Coba Mutillidae](laporan-final/uji-coba-mutillidae.md)
   * [Lesson 5](laporan-final/uji-coba-mutillidae/lesson-5.md)
+  * [Lesson 7](laporan-final/uji-coba-mutillidae/lesson-7.md)
 * [Instalasi Cuckoo](laporan-final/instalasi-cuckoo.md)
 * [Konfigurasi Cuckoo](laporan-final/konfigurasi-cuckoo.md)
 * [Uji Coba Cuckoo](laporan-final/uji-coba-cuckoo.md)
