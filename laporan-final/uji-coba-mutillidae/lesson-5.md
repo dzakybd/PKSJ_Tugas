@@ -98,6 +98,16 @@ Lesson 5
     ```
     mysql -u root
     ```
+- **Step 3**    : Pilih database `owasp10`
+    ![](/assets/lesson-5/db.png)
+- **Step 4**    : Lihat daftar tabel dalam database
+    ```
+    show table;
+    ```
+- **Step 5**    : Lihat isi tabel `accounts`
+    ```
+    desc accounts;
+    ```
 
 
 
