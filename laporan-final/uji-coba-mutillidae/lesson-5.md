@@ -102,12 +102,16 @@ Lesson 5
     ![](/assets/lesson-5/db.png)
 - **Step 4**    : Lihat daftar tabel dalam database
     ```
-    show table;
+    show tables;
     ```
 - **Step 5**    : Lihat isi tabel `accounts`
     ```
     desc accounts;
     ```
+- **Step 6**    : 
+- **Step 7**    : 
+
+
 
 
 
