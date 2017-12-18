@@ -104,11 +104,16 @@ Lesson 5
     ```
     show tables;
     ```
-- **Step 5**    : Lihat isi tabel `accounts`
+- **Step 5**    : Lihat isi semua kolom dari tabel `accounts`
     ```
     desc accounts;
     ```
-- **Step 6**    : 
+    ![](/assets/lesson-5/db_table.png)
+- **Step 6**    : Lihat semua data dari tabel `accounts`
+    ```
+    select * from accounts;
+    ```
+     
 - **Step 7**    : 
 
 
