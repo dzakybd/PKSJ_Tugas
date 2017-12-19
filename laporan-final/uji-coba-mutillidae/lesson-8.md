@@ -52,6 +52,8 @@ Lesson 8 - SQL Injection Union Exploit #1
 ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_56_23.png)
 
 - **Step 8** : Setelah menekan tombol _View Account Details_, maka hasilnya akan menunjukan kolom yang ditampilkan pada web.
+![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_58_23.png)
+
 
 
 
