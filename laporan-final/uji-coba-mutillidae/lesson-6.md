@@ -152,5 +152,51 @@ Lesson 6
     - Klik Ok
     - Klik Close
     ![](/assets/lesson-6/no-proxy.png)
+    
+### Section 16: Simulate Man-In-The-Middle Attack
+- **Step 1**    : Install Cookies Manager+
+    ![](/assets/lesson-6/install-cookies.png)
+- **Step 2**    : Buka Cookies Manager+
+    ![](/assets/lesson-6/open-cookies.png)
+- **Step 3**    : Buka Cookies dari crack_cookies.txt
+    ![](/assets/lesson-6/get-cookies.png)
+- **Step 4**    : Edit PHPSESSID dari host `10.151.36.64`
+    - Name: PHPSESSID
+    - Content: 993789dd2451026982b1068764bcf2de (sesuaikan dengan **crack_cookies.txt**) 
+    - Host: 10.151.36.64
+    - Path: /
+    - Save
+    ![](/assets/lesson-6/phpsessid.png)
+- **Step 5**    : Tambah entri cookies showhints
+    - Click Add
+    - Name: showhints
+    - Content: 0 (sesuaikan dengan **crack_cookies.txt**)
+    - Host: 10.151.36.64
+    - Path: /mutillidae/  
+    - Save
+    ![](/assets/lesson-6/showhints.png)
+- **Step 6**    : Tambah entri cookies username
+    - Click Add
+    - Name: username
+    - Content: samurai (sesuaikan dengan **crack_cookies.txt**)
+    - Host: 10.151.36.64
+    - Path: /mutillidae/  
+    - Save
+    ![](/assets/lesson-6/username.png)
+- **Step 7**    : Tambah entri cookies uid
+    - Click Add
+    - Name: uid
+    - Content: 6 (sesuaikan dengan **crack_cookies.txt**)
+    - Host: 10.151.36.64
+    - Path: /mutillidae/  
+    - Save
+    ![](/assets/lesson-6/uid.png)
+- **Step 8**    : Buka `http://10.151.36.64/mutillidae/index.php`, anda akan terlogin sebagai samurai
+    ![](/assets/lesson-6/result.png)
+
+
+
+    
+    
 
     
