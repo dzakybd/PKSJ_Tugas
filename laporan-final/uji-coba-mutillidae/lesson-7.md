@@ -24,7 +24,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  ![](/assets/VirtualBox_kali_19_12_2017_16_26_28.png)
  
- - **Step 7** : Setelah menekan tombol Start Burp, maka aplikasi Burp Suite sudah berjalan. 
+ - **Step 7** : Setelah menekan tombol Start Burp, maka aplikasi Burp Suite sudah berjalan. Langkah selanjutnya adalah mengatur port proxy pada Burp Suite.
  
 
 
