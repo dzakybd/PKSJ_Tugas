@@ -35,7 +35,7 @@ Lesson 8 - SQL Injection Union Exploit #1
 ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_03_01_34.png)
 
 
-- **Step 2** : Ubah ukuran text box username menjadi 100%.
+- **Step 2** : Ubah ukuran text box username menjadi 100% menggunakan inspect element, 
  
  
  
