@@ -52,6 +52,8 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  - **Step 5** : Maka hasilnya kita mendapatkan data user.
  
+ ![](/assets/VirtualBox_kali_19_12_2017_16_55_56.png)
+ 
  - **Step 6** :
 
 
