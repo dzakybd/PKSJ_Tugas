@@ -29,6 +29,9 @@ Lesson 8 - SQL Injection Union Exploit #1
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_34_07.png)
  
  
+### # SQL Injection (Union Example #1)
+ 
+ 
  
  
  
