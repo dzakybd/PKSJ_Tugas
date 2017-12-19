@@ -16,5 +16,5 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
 ![](/assets/VirtualBox_kali_19_12_2017_16_10_12.png)
 
 
- - **Step 5** : 
+ - **Step 5** : Pada saat burpsuite telah dibuka, 
 
