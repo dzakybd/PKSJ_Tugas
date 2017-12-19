@@ -1,5 +1,6 @@
 ### DAFTAR ISI
 - [Dasar Teori](dasar-teori.md)
+- [Instalasi Kali Linux](instalasi-kali-linux.md)
 - [Konfigurasi Mutillidae](konfigurasi-mutillidae.md)
 - [Uji Coba Mutillidae](uji-coba-mutillidae.md)
 - [Instalasi Cuckoo](instalasi-cuckoo.md)
