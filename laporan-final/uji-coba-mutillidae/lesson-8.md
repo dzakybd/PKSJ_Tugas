@@ -68,6 +68,9 @@ Lesson 8 - SQL Injection Union Exploit #1
  
  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_12_04.png)
  
+
+
+ 
   
 
 
