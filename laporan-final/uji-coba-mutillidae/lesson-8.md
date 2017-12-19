@@ -55,8 +55,9 @@ Lesson 8 - SQL Injection Union Exploit #1
 ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_58_23.png)
 
 - **Step 9** : Lakukan **Step 7** kembali dengan mengganti `null` menjadi angka dengan query sql injection sebagai berikut `' union select 1,2,3,4,5 -- `
-
-
+ ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_03_20.png)
+ 
+- **Step 10** : 
 
 
  
