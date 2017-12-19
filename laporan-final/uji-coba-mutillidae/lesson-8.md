@@ -44,7 +44,9 @@ Lesson 8 - SQL Injection Union Exploit #1
 - **Step 4** : Setelah menekan tombol _View Account Details_, maka akan terjadi error query karena jumlah kolom dan kolom union berbeda.
 ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_44_12.png)
 
-- **Step 5** : Lakukan **Step 2** kembali. 
+- **Step 5** : Lakukan **Step 2** kembali. Setelah melakukan **Step 2**, lakukan kembali **Step 3** dengan menambah `null` pada syntax query sql injection.
+
+ - **Step 6** :  
 
  
  
