@@ -71,6 +71,7 @@ Lesson 6
         - `+` adalah spasi
         - `%3D` adalah sama dengan (=)
         ![](/assets/lesson-6/obtain_1.png)
+        
 ### Section 12: Simulate CURL SQL Injection: (Obtain Access #1)
 - **Step 1**    : Klik Logout
 - **Step 2**    : Gunakan Curl untuk mekakukan login dengan **POST** data yang didapatkan dengan Burpsuite pada Section 11
@@ -85,9 +86,9 @@ Lesson 6
         ```
         cat crack_cookies.txt
         ```
-- **Step 3**    :
-- **Step 4**    :  
-
+    ![](/assets/lesson-6/obtain_1_curl.png)
+    
+### Section 13: SQL Injection: Single Quote Test On Password Field (Obtain Access #2)
     
 
 
