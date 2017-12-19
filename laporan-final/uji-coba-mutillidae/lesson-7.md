@@ -68,6 +68,9 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  - **Step 3** : Setelah menjalankan perintah, hasil dari curl sql injection dapat dilihat pada terminal.
  
+ ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_17_57_09.png)
+ 
+ 
  
  
  
