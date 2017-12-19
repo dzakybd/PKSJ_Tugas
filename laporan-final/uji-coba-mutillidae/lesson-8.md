@@ -68,7 +68,10 @@ Lesson 8 - SQL Injection Union Exploit #1
  
  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_12_04.png)
  
-- **Step 13** : 
+
+### # Curl Action
+- **Step 1** : Buka Burp Suite dan cari log hasil sniffing pada **step 12** pada bagian SQL Injection (Union Example #1), kemudian catat/copas raw header request.
+
 
  
   
