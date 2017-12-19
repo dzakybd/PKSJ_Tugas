@@ -85,7 +85,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_18_11_36.png)
  
- 
+ **Step 4** : Jalankan lesson7.pl dan kemudian lihat hasilnya.
  
  
  
