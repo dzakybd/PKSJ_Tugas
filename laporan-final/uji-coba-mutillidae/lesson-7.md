@@ -5,4 +5,4 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
 ![](/assets/VirtualBox_kali_19_12_2017_03_01_34.png)
 
 
--  
+-  **Step 2** : Setting proxy pada firefox dengan membuka pengaturan network melalui open menu --> Preferences -> Advanced --> Network
