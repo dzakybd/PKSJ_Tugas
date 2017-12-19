@@ -57,7 +57,10 @@ Lesson 8 - SQL Injection Union Exploit #1
 - **Step 9** : Lakukan **Step 7** kembali dengan mengganti `null` menjadi angka dengan query sql injection sebagai berikut `' union select 1,2,3,4,5 -- `
  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_03_20.png)
  
-- **Step 10** : 
+- **Step 10** : Dapat dilihat dari hasil percobaan **Step 9** bahwa kolom username diisi oleh nomer 2, password diisi oleh nomer 3 dan Signature diisi oleh nomer 4.
+ 
+ ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_04_19.png)
+ 
 
 
  
