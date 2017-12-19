@@ -46,7 +46,7 @@ Lesson 8 - SQL Injection Union Exploit #1
 
 - **Step 5** : Lakukan **Step 2** kembali. Setelah melakukan **Step 2**, lakukan kembali **Step 3** dengan menambah `null` pada syntax query sql injection.
 
-- **Step 6** :  Lakukan **Step 5** sampai jumlah kolom union dan kolom table accounts sama. `' union select null,null,null,null,null -- ` adalah syntax query hasil percobaan **Step 5**.
+- **Step 6** :  Lakukan **Step 5** sampai jumlah kolom union dan kolom table accounts sama. `' union select null,null,null,null,null -- ` adalah syntax query hasil percobaan **Step 5**. Dapat disimpulkan jumlah kolom pada table accounts adalah 5
 
 
  
