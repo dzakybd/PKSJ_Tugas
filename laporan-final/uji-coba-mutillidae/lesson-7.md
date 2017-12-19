@@ -15,7 +15,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
 
 - **Step 4** : Buka burpsuite, dengan cara pilih Applications --> Web Application Analysis --> burpsuite
 
-![](/assets/VirtualBox_kali_19_12_2017_16_10_12.png)
+![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_10_12.png)
 
 
  - **Step 5** : Pada saat burpsuite telah dibuka, maka akan ditanyakan tentang project. Klik tombol Next 
