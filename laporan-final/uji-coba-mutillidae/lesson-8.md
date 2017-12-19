@@ -41,3 +41,6 @@ Lesson 8 - SQL Injection Union Exploit #1
 - **Step 3** : Masukkan syntax sql `' union select null -- ` pada text box name untuk perbocaan pertama melakukan sql injection dan tekan tombol _View Account Details_.
  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_40_50.png)
  
+- **Step 4** : Setelah menekan tombol _View Account Details_, maka akan terjadi error query karena jumlah kolom dan union berbeda.
+ 
+ 
