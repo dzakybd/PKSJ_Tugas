@@ -9,3 +9,5 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
 
 - **Step 3** : Pada bagian connection, klik tombol _Settings_. Setelah mengklik tombol _Settings_, maka akan muncul kotak dialog _Connection Settings_. Atur _Connection Settings_ sesuai gambar.
 
+![](/assets/VirtualBox_kali_19_12_2017_16_06_35.png)
+
