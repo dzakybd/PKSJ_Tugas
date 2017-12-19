@@ -35,6 +35,9 @@ Lesson 8 - SQL Injection Union Exploit #1
 ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_03_01_34.png)
 
 
-- **Step 2** : Ubah ukuran text box username menjadi 100% menggunakan inspect element agar text box lebih panjang untuk menuliskan syntax SQL Injection. 
+- **Step 2** : Ubah ukuran text box username menjadi 100% menggunakan inspect element agar text box lebih panjang untuk menuliskan syntax SQL Injection.
+![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_37_43.png)
+
+- **Step 3** : Masukkan syntax sql `' union select null -- ` pada text box name
  
  
