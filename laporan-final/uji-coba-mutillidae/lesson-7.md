@@ -20,5 +20,5 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  ![](/assets/VirtualBox_kali_19_12_2017_16_24_51.png)
  
- - **Step 6** : Setelah menekan tombol next, maka selanjutnya ada memilih konfigurasi
+ - **Step 6** : Setelah menekan tombol next, maka selanjutnya ada memilih konfigurasi.
 
