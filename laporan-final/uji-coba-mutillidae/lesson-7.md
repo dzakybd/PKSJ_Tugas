@@ -37,7 +37,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  ### # SQL Injection: Obtain Userlist (Method #1)
  - **Step 1** : Buka halaman user info. Pilih sidebar. OWASP Top 10 --> A1 - SQL Injection --> SQLi - Extract Data --> User Info
- - **Step 2** : Melakukan SQL Injection untuk mendapatkan semua user tanpa password dengan cara memasukkan `' or 1=1--` pada kolom username. Kemudian tekan tombol _View Account Detail_
+ - **Step 2** : Melakukan SQL Injection untuk mendapatkan semua user tanpa password dengan cara memasukkan `' or 1=1--` pada kolom username. Kemudian tekan tombol _View Account Detail_.
  
  ![](/assets/VirtualBox_kali_19_12_2017_16_51_37.png)
  
@@ -45,7 +45,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  ![](/assets/VirtualBox_kali_19_12_2017_16_42_33.png)
  
- - **Step 4** : Setelah melihat syntax query yang digunakan bahwa syntax comment `--` untuk sql tidak berjalan karena kurang spasi. Maka selanjutnya adalah menambahkan spasi setelah tanda comment sql `--` menjadi `' or 1=1-- `.
+ - **Step 4** : Setelah melihat syntax query yang digunakan bahwa syntax comment `--` untuk sql tidak berjalan karena kurang spasi. Maka selanjutnya adalah menambahkan spasi setelah tanda comment sql `--` menjadi `' or 1=1-- `. Kemudian tekan tombol _View Account Detail_ lagi.
  
  
  
