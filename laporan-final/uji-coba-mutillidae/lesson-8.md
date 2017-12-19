@@ -60,7 +60,8 @@ Lesson 8 - SQL Injection Union Exploit #1
 - **Step 10** : Dapat dilihat dari hasil percobaan **Step 9** bahwa kolom username diisi oleh nomer 2, password diisi oleh nomer 3 dan Signature diisi oleh nomer 4.
  
  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_04_19.png)
- 
+
+- **Step 11** : Langkah selanjutnya adalah melakukan serangan sql injection dengan menggabungkan dengan tabel yang sudah diketahui selain accounts. 
 
 
  
