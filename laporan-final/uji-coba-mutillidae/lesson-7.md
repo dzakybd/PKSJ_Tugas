@@ -54,7 +54,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_55_56.png)
  
- - **Step 6** : Buka Burp Suite kemudian pilih menu Proxy -> HTTP History. Kemudia cari log hasil sniffing **step 5**. Perhatikan header requestnya.
+ - **Step 6** : Buka Burp Suite kemudian pilih menu Proxy -> HTTP History. Kemudian cari log hasil sniffing **step 5**. Perhatikan header requestnya.
  
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_17_03_16.png)
  
