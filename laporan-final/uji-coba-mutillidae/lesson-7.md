@@ -30,7 +30,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  - **Step 8** : Setelah memastikan port porxy 8080, maka selanjutnya adalah mematikan Intercept pada menu Proxy --> Intercept.
  
- 
+ ![](/assets/VirtualBox_kali_19_12_2017_16_34_07.png)
  
  
  
