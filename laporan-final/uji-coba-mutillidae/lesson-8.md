@@ -48,5 +48,6 @@ Lesson 8 - SQL Injection Union Exploit #1
 
 - **Step 6** :  Lakukan **Step 5** sampai jumlah kolom union dan kolom table accounts sama.
 
+
  
  
