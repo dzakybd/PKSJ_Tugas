@@ -89,6 +89,40 @@ Lesson 6
     ![](/assets/lesson-6/obtain_1_curl.png)
     
 ### Section 13: SQL Injection: Single Quote Test On Password Field (Obtain Access #2)
+- **Step 1**    : Buka Login/Register.
+- **Step 2**    : Ketik `samurai` di kolom **Name**.
+- **Step 3**    : Klik Kanan di kolom **Password**.
+- **Step 4**    : Klik **Inspect Element**.
+    ![](/assets/lesson-5/inspect-element-password.png)
+- **Step 5**    : Ganti `password` dengan kata `text` pada elemen **type**. Ganti elemen maxlength menjadi `50` dan elemen size menjadi `50`
+    ![](/assets/lesson-5/inspect-password-size.png)
+- **Step 6**    : Ketik `' or (1=1 and username='samurai')-- ` di kolom **Password**. Jangan lupa memberikan spasi setelah `-- `
+- **Step 7**    : Klik Login. Perhatikan kolom password sudah tidak lagi tersensor dengan bintang karena **type** sudah diganti menjadi `text`.
+    ![](/assets/lesson-5/non-obfused-pass-2.png)
+    - Anda akan berhasil login sebagai `samurai`
+    ![](/assets/lesson-5/samurai-logged-in.png)
+    - Query yang dihasilkan
+    ```
+    SELECT * FROM accounts WHERE username='samurai' AND password='' or (1=1 and username='samurai')-- '
+    ```
+- **Step 8**    : Lihat data request **POST**
+    - Klik Proxy Tab
+    - Klik HTTP History
+    - Klik baris yang berisi `/mutillidae/index.php?page=login.php`
+    - Klik Request Tab
+    - Klik Raw Tab
+    - Block semuta teks lalu klik kanan
+    - Klik "Copy to File"
+        ![](/assets/lesson-6/obtain_2.png)
+    - Simpan sebagai `burp2.txt`
+- **Step 9**    : Lihat Post Data
+    - `grep -i cookie burp2.txt`
+    - `grep -i username burp2.txt`
+    ![](/assets/lesson-6/burp2-txt.png)
+- **Step 10**    : Logout dan tutup Mozilla Firefox
+
+### Section 14: Simulate cURL SQL Injection: (Obtain Access #2)
+
     
 
 
