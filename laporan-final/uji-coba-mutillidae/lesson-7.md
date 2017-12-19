@@ -34,7 +34,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  ![](/assets/VirtualBox_kali_19_12_2017_16_34_07.png)
  
- ###
+ ### SQL Injection: Obtain Userlist (Method #1)
  
 
 
