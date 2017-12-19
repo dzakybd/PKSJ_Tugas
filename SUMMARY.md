@@ -35,6 +35,7 @@
 * [Konfigurasi Snort](laporan-final/konfigurasi-snort.md)
 * [Uji Coba Snort](laporan-final/uji-coba-snort.md)
 * [Kesimpulan dan Saran](laporan-final/kesimpulan-dan-saran.md)
+* [Instalasi Kali Linux](laporan-final/instalasi-kali-linux.md)
 
 ## Laporan 2
 
