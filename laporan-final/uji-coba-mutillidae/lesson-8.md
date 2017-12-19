@@ -49,7 +49,9 @@ Lesson 8 - SQL Injection Union Exploit #1
 - **Step 6** :  Lakukan **Step 5** sampai jumlah kolom union dan kolom table accounts sama. `' union select null,null,null,null,null -- ` adalah syntax query hasil percobaan **Step 5**. Dapat disimpulkan jumlah kolom pada table accounts adalah 5.
 
 - **Step 7** : Masukkan query sql injection `' union select null,null,null,null,null -- ` pada textbox name. Dan kemudian tekan tombol _View Account Details_.
+![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_56_23.png)
 
+- **Step 8** : Setelah menekan tombol _View Account Details_, maka hasilnya akan menunjukan kolom yang ditampilkan pada web.
 
 
 
