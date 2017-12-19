@@ -61,7 +61,7 @@ Lesson 8 - SQL Injection Union Exploit #1
  
  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_04_19.png)
 
-- **Step 11** : Langkah selanjutnya adalah melakukan serangan sql injection dengan menggabungkan dengan tabel yang sudah diketahui selain accounts. 
+- **Step 11** : Langkah selanjutnya adalah melakukan serangan sql injection dengan menggabungkan dengan tabel yang sudah diketahui selain accounts. Contohnya menggunakan tabel credit_cards, sehingga query sql injectionnya menjadi ``
 
 
  
