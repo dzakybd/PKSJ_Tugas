@@ -59,7 +59,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_17_03_16.png)
  
  
- 
+ #### # Simulate CURL SQL Injection: (Method #2)
  
  
  
