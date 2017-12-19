@@ -57,5 +57,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  - **Step 6** : Buka Burp Suite kemudian pilih menu Proxy -> HTTP History. Kemudia cari log hasil sniffing **step 5**. Perhatikan header requestnya.
  
  
+ 
+ 
 
 
