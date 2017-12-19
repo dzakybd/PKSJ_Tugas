@@ -7,4 +7,4 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
 
 -  **Step 2** : Setting proxy pada firefox dengan membuka pengaturan network melalui open menu --> Preferences -> Advanced --> Network
 
--
+- **Step 3** : Pada bagian connection, klik tombol _Settings_
