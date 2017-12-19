@@ -29,23 +29,6 @@ Lesson 8 - SQL Injection Union Exploit #1
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_34_07.png)
  
  
- ### # SQL Injection: Obtain Userlist (Method #1)
- - **Step 1** : Buka halaman user info. Pilih sidebar. OWASP Top 10 --> A1 - SQL Injection --> SQLi - Extract Data --> User Info
- - **Step 2** : Melakukan SQL Injection untuk mendapatkan semua user tanpa password dengan cara memasukkan `' or 1=1--` pada kolom username. Kemudian tekan tombol _View Account Detail_.
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_51_37.png)
- 
- - **Step 3** : Setelah menekan tombol _View Account Detail_, maka halaman akan muncul error query. Perhatikan syntax query yang digunakan. 
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_42_33.png)
- 
- - **Step 4** : Setelah melihat syntax query yang digunakan bahwa syntax comment `--` untuk sql tidak berjalan karena kurang spasi. Maka selanjutnya adalah menambahkan spasi setelah tanda comment sql `--` menjadi `' or 1=1-- `. Kemudian tekan tombol _View Account Detail_ lagi.
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_52_52.png)
- 
- 
- - **Step 5** : Maka hasilnya kita mendapatkan data user. 
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_55_56.png)
- 
- - **Step 6** : Buka Burp Suite kemudian pilih menu Proxy -> HTTP History. Kemudian cari log hasil sniffing **step 5**. Perhatikan header requestnya.
- ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_17_03_16.png)
  
  
  
