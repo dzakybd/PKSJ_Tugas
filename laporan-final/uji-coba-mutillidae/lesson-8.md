@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-Lesson 7 - SQL Injection Union Exploit #1
-=======
-
 Lesson 8 - SQL Injection Union Exploit #1
->>>>>>> Thoni/Lesson8
 -------
 
 ### # Mempersiapkan Burp Suite dan Firefox
@@ -155,15 +150,5 @@ dan lihat hasilnya. Hasilnya adalah data hasil sql injection.
  
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_18_11_36.png)
  
- **Step 4** : Jalankan lesson7.pl dan kemudian lihat hasilnya.
+ **Step 4** : Jalankan lesson8.pl dan kemudian lihat hasilnya.
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_18_14_03.png)
- 
- 
-<<<<<<< HEAD
- 
- 
-
->>>>>>> Thoni/Lesson7
-
-=======
->>>>>>> Thoni/Lesson8
