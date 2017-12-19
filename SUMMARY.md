@@ -27,11 +27,9 @@
 * [Konfigurasi Mutillidae](laporan-final/konfigurasi-mutillidae.md)
 * [Uji Coba Mutillidae](laporan-final/uji-coba-mutillidae.md)
   * [Lesson 5](laporan-final/uji-coba-mutillidae/lesson-5.md)
-<<<<<<< HEAD
   * [Lesson 6](laporan-final/uji-coba-mutillidae/lesson-6.md)
-=======
   * [Lesson 7](laporan-final/uji-coba-mutillidae/lesson-7.md)
->>>>>>> Thoni/Lesson7
+  * [Lesson 8](laporan-final/uji-coba-mutillidae/lesson-8.md)
 * [Instalasi Cuckoo](laporan-final/instalasi-cuckoo.md)
 * [Konfigurasi Cuckoo](laporan-final/konfigurasi-cuckoo.md)
 * [Instalasi Snort](laporan-final/instalasi-snort.md)
