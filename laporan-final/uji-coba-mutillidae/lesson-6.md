@@ -194,6 +194,10 @@ Lesson 6
 - **Step 8**    : Buka `http://10.151.36.64/mutillidae/index.php`, anda akan terlogin sebagai samurai
     ![](/assets/lesson-6/result.png)
 
+### Proof of Lab
+![](/assets/lesson-6/proof-of-labs-6.png)
+
+
 
 
     
