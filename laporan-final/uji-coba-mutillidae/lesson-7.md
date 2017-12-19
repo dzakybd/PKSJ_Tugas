@@ -74,7 +74,9 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
 #### # Perl Parser
 
- -**Step 1** : Download perl parser lesson 7 pada link berikut. [http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson7/lesson7.pl.TXT](http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson7/lesson7.pl.TXT)
+ - **Step 1** : Download perl parser lesson 7 pada link berikut [http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson7/lesson7.pl.TXT](http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson7/lesson7.pl.TXT)
+ 
+ - **Step 2** : 
  
  
  
