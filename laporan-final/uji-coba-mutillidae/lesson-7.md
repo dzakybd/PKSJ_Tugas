@@ -47,6 +47,8 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  - **Step 4** : Setelah melihat syntax query yang digunakan bahwa syntax comment `--` untuk sql tidak berjalan karena kurang spasi. Maka selanjutnya adalah menambahkan spasi setelah tanda comment sql `--` menjadi `' or 1=1-- `. Kemudian tekan tombol _View Account Detail_ lagi.
  
+ ![](/assets/VirtualBox_kali_19_12_2017_16_52_52.png)
+ 
  
  
  
