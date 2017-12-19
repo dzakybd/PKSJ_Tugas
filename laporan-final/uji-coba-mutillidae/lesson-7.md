@@ -76,7 +76,9 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
 
  - **Step 1** : Download perl parser lesson 7 pada link berikut [http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson7/lesson7.pl.TXT](http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson7/lesson7.pl.TXT)
  
- - **Step 2** : 
+ - **Step 2** : Ganti nama file lesson7.pl.TXT menjadi lesson7.pl, kemudian ubah permission file tersebut menjadi `rwx------` atau 700.
+ 
+ 
  
  
  
