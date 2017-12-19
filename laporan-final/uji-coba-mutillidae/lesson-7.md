@@ -45,6 +45,7 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  ![](/assets/VirtualBox_kali_19_12_2017_16_42_33.png)
  
+ - **Step 4** : Setelah melihat syntax query yang digunakan bahwa syntax comment untuk sql tidak berjalan karena kurang spasi. 
  
  
  
