@@ -78,6 +78,8 @@ Lesson 7 - SQL Injection, Burpsuite, cURL, Perl Parser
  
  - **Step 2** : Ganti nama file lesson7.pl.TXT menjadi lesson7.pl, kemudian ubah permission file tersebut menjadi `rwx------` atau 700.
  
+ ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_18_08_20.png)
+ 
  
  
  
