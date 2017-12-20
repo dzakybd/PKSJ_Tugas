@@ -33,7 +33,7 @@
 
 7. Menjadi 
     ```
-    machines = windowsxp
+    machines = cuckoo1
     [cuckoo1]
     label = cuckoo1
     platform = windows
