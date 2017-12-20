@@ -52,6 +52,6 @@ include $RULE_PATH/community.rules
  
 18. Cek tipe koneksi `ip addr`
 
-19. 
+19. Jika tipe koneksi `enp0s3`, maka masukkan konfigurasi 
 
 
