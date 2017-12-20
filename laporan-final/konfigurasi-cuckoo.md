@@ -35,7 +35,7 @@
     ```
     machines = windowsxp
     [cuckoo1]
-    label = windowsxp
+    label = cuckoo1
     platform = windows
     ip = 10.151.64.196 # IP address of the guest
     snapshot = cuckoo # name of snapshot
