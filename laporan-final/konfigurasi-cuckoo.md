@@ -49,8 +49,6 @@
     enabled = yes
     
     ```
-10. Masuk ke dalam file cuckoo `cd /Users/muhammadhilman/.`
-
-12. Jalankan web
+10. Buat Virtualbox menggunakan Windows XP, gunakan 
 
 
