@@ -34,11 +34,11 @@
 7. Menjadi 
     ```
     machines = windowsxp
-    [windowsxp]
+    [cuckoo1]
     label = windowsxp
     platform = windows
     ip = 10.151.64.196 # IP address of the guest
-    snapshot = cuckoo1 # name of snapshot
+    snapshot = cuckoo # name of snapshot
     ```
     
 8. Ubah konfigurasi reporting.conf `$CWD/conf/reporting.conf`
