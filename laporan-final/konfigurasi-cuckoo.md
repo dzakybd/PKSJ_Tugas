@@ -28,4 +28,6 @@
     # The ifconfig command will show you the interface name.
     interface = vboxnet0
     ```
+    
+6. 
 
