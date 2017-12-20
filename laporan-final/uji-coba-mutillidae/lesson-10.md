@@ -37,7 +37,15 @@ Terlihat ada port-port yang biasa digunakan oleh suatu service yang potensial un
 
 ### \# Menggunakan Backdoor untuk pengamatan Database
 
-* **Step 1** : Masukan command linux pada textbox tersebut `find * -name "*.php" | xargs grep -i "password" | grep "="`. Hal ini dilakukan untuk mencari file berekstensi `.php` dan mencari string yang mengandung `password=`, yang disasar adalah password database mysql.
+* **Step 1** : Masukan command linux pada textbox tersebut `ls | grep ".inc`. Hal ini dilakukan untuk mencari file berekstensi `.inc` di directory Mutillidae, yang disasar adalah username dan password database mysql.
+
+Terlihat terdapat file `config.inc`, file ini diduga berisi konfigurasi database mysql.
+
+* **Step 2** : Masukan command linux pada textbox tersebut `cat config.inc | grep -v "<?php"`. Hal ini dilakukan untuk melihat file sebab jika kita tidak gunakan `grep` web tidak akan mencetak nya karena file berisi script php
+
+
+
+
 
 
 
