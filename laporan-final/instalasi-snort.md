@@ -36,6 +36,4 @@ Pada tahun 2009, Snort memasuki InfoWorld Open Source Hall of Fame sebagai salah
 13. Konfigurasi dengan sourcefire `./configure --enable-sourcefire`
 
 14. Instalasi Snort `make && sudo make install`
-
-15. 
  
