@@ -24,7 +24,7 @@ select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,
 \! cat /tmp/CCN.csv
 ```
 
-### \# SQL Injection (Union with Curl)
+### \# SQL Injection
 
 * **Step 1** : Buka `http://10.151.36.64/mutillidae/` lalu masuk ke halaman user info. Pilih sidebar. OWASP Top 10 --&gt; A1 - SQL Injection --&gt; SQLi - Extract Data --&gt; User Info
   ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_03_01_34.png)
@@ -41,4 +41,7 @@ AppArmor dalam OS turunan Ubuntu berfungsi untuk membatasi resource dari aktivit
 ```
 Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah tidak akan menampilkan hasil, justru Authentication Error. Namun disisi lain akan membuat file **CCN2.txt**
 
-* **Step 5** : Melihat hasil operasi dengan membuka `http://10.151.36.64/mutillidae/CCN2.txt`
+* **Step 5** : Melihat hasil operasi dengan web browser `http://10.151.36.64/mutillidae/CCN2.txt`
+
+* **Step 5** : Melihat hasil operasi dengan curl 
+`curl --location "http://10.151.36.64/mutillidae/CCN2.txt"`
