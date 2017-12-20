@@ -26,13 +26,21 @@
 * [Dasar Teori](laporan-final/dasar-teori.md)
 * [Konfigurasi Mutillidae](laporan-final/konfigurasi-mutillidae.md)
 * [Uji Coba Mutillidae](laporan-final/uji-coba-mutillidae.md)
+  * [Lesson 5](laporan-final/uji-coba-mutillidae/lesson-5.md)
+  * [Lesson 6](laporan-final/uji-coba-mutillidae/lesson-6.md)
+  * [Lesson 7](laporan-final/uji-coba-mutillidae/lesson-7.md)
+  * [Lesson 8](laporan-final/uji-coba-mutillidae/lesson-8.md)
+  * [Lesson 9](laporan-final/uji-coba-mutillidae/lesson-9.md)
+  * [Lesson 10](laporan-final/uji-coba-mutillidae/lesson-10.md)
+  * [Lesson 11](laporan-final/uji-coba-mutillidae/lesson-11.md)
 * [Instalasi Cuckoo](laporan-final/instalasi-cuckoo.md)
 * [Konfigurasi Cuckoo](laporan-final/konfigurasi-cuckoo.md)
-* [Uji Coba Cuckoo](laporan-final/uji-coba-cuckoo.md)
 * [Instalasi Snort](laporan-final/instalasi-snort.md)
+* [Uji Coba Cuckoo](laporan-final/uji-coba-cuckoo.md)
 * [Konfigurasi Snort](laporan-final/konfigurasi-snort.md)
 * [Uji Coba Snort](laporan-final/uji-coba-snort.md)
 * [Kesimpulan dan Saran](laporan-final/kesimpulan-dan-saran.md)
+* [Instalasi Kali Linux](laporan-final/instalasi-kali-linux.md)
 
 ## Laporan 2
 
