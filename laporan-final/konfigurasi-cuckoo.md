@@ -29,5 +29,26 @@
     interface = vboxnet0
     ```
     
-6. 
+6. Ubah konfigurasi Virtualbox `$CWD/conf/virtualbox.conf`
+
+7. Menjadi 
+    ```
+    machines = windowsxp
+    [windowsxp]
+    label = windowsxp
+    platform = windows
+    ip = 192.168.56.10 # IP address of the guest
+    snapshot = snapshot1 # name of snapshot
+    ```
+    
+8. Ubah konfigurasi reporting.conf `$CWD/conf/reporting.conf`
+
+9. Menjadi 
+    ```
+    [mongodb]
+    enabled = yes
+    
+    ```
+
+
 
