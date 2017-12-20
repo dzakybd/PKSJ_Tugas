@@ -28,3 +28,4 @@
 14. Edit file konfigurasi `sudo gedit /etc/snort/snort.conf`
 
 
+
