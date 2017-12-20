@@ -8,7 +8,7 @@
     ```
     machinery = virtualbox
     [resultserver]
-    ip = 192.168.56.1 #This is the IP address of the host
+    ip = 10.151.64.194 #This is the IP address of the host
     port = 2042 #leave default unless you have services running
     
     ```
@@ -37,7 +37,7 @@
     [windowsxp]
     label = windowsxp
     platform = windows
-    ip = 192.168.56.10 # IP address of the guest
+    ip = 10.151.64.196 # IP address of the guest
     snapshot = snapshot1 # name of snapshot
     ```
     
@@ -49,6 +49,8 @@
     enabled = yes
     
     ```
+10. Masuk ke dalam file cuckoo `cd /Users/muhammadhilman/.`
 
+12. Jalankan web
 
 
