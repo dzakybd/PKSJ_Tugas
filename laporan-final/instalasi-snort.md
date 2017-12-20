@@ -9,7 +9,21 @@ Pada tahun 2009, Snort memasuki InfoWorld Open Source Hall of Fame sebagai salah
 3. DAQ
 
 #INSTALLASI
-1. Instalasi library
+1. Instalasi library`sudo apt install -y gcc libpcre3-dev zlib1g-dev libpcap-dev openssl libssl-dev libnghttp2-dev libdumbnet-dev bison flex libdnet`
 
-2. 
+2. Membuat direktori `mkdir ~/snort_src`
+
+3. Masuk ke direktori `cd ~/snort_src`
+
+4. Download DAQ `wget https://www.snort.org/downloads/snort/daq-2.0.6.tar.gz`
+
+5. Ekstrak DAQ `tar -xvzf daq-2.0.6.tar.gz`
+
+6. Masuk ke dalam folder `cd daq-2.0.6`
+
+7. Compile DAQ `./configure`
+
+8. Install DAQ `make && sudo make install`
+
+9. Masuk ke dalam folder Snort `cd ~/snort_src`
  
