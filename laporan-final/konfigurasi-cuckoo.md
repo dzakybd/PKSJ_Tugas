@@ -11,7 +11,12 @@ Pada tahun 2009, Snort memasuki InfoWorld Open Source Hall of Fame sebagai salah
 #INSTALLASI
 1. Instalasi library
 
-'sudo apt install -y gcc libpcre3-dev zlib1g-dev libpcap-dev openssl libssl-dev libnghttp2-dev libdumbnet-dev bison flex libdnet'
+
+`
+sudo apt install -y gcc libpcre3-dev zlib1g-dev libpcap-dev openssl libssl-dev libnghttp2-dev libdumbnet-dev bison flex libdnet
+`
+
+
 
 2. 
  
