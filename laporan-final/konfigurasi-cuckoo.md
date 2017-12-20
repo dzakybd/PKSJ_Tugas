@@ -26,6 +26,29 @@
 13. Menghilangkan rules yang tidak dibutuhkan saat konfigurasi `sudo sed -i 's/include \$RULE\_PATH/#include \$RULE\_PATH/' /etc/snort/snort.conf`
 
 14. Edit file konfigurasi `sudo gedit /etc/snort/snort.conf`
+```
+# Setup the network addresses you are protecting
+ipvar HOME_NET <server public IP>/32
+# Set up the external network addresses. Leave as "any" in most situations
+ipvar EXTERNAL_NET !$HOME_NET
+# Path to your rules files (this can be a relative path)
+var RULE_PATH /etc/snort/rules
+var SO_RULE_PATH /etc/snort/so_rules
+var PREPROC_RULE_PATH /etc/snort/preproc_rules
+# Set the absolute path appropriately
+var WHITE_LIST_PATH /etc/snort/rules
+var BLACK_LIST_PATH /etc/snort/rules
+# unified2
+# Recommended for most installs
+output unified2: filename snort.log, limit 128
+include $RULE_PATH/community.rules
+```
+15. Validasi konfigurasi yang telah diubah`sudo snort -T -c /etc/snort/snort.conf`
 
+16. Buka file local.rules `sudo nano /etc/snort/rules/local.rules`
+ Tambahkan satu baris 
+ `alert icmp any any -> $HOME_NET any (msg:"ICMP test"; sid:10000001; rev:001;)`
+ 
+ 17. Cek tipe koneksi 
 
 
