@@ -9,4 +9,6 @@
 
 5. Buat folder untuk konfigurasi Snort `sudo mkdir -p /etc/snort/rules /var/log/snort /usr/local/lib/snort_dynamicrules`
 
-6. Mengatur permission
+6. Mengatur permission Snort 1`sudo chmod -R 5775 /etc/snort /var/log/snort /usr/local/lib/snort_dynamicrules`
+
+7. Mengatur permission
