@@ -32,13 +32,11 @@ select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,
 * **Step 2** : Ubah ukuran text box username menjadi 100% menggunakan inspect element agar text box lebih panjang untuk menuliskan syntax SQL Injection.  
   ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_37_43.png)
 
-* **Step 3** : Masukkan operasi sql sebagai berikut
+* **Step 3** : Masukkan operasi sql di bawah di dalam textbox **Name** lalu tekan tombol _View Account Details_
 ```
 ' union select ccid,ccnumber,ccv,expiration,null from credit_cards INTO OUTFILE '/var/www/html/mutillidae/CCN2.txt' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' -- 
 ```
-Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`
-pada text box name untuk perbocaan pertama melakukan sql injection dan tekan tombol _View Account Details_.  
-  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_40_50.png)
+
 
 * **Step 4** : Setelah menekan tombol _View Account Details_, maka akan terjadi error query karena jumlah kolom dan kolom union berbeda.  
   ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_44_12.png)
@@ -59,9 +57,3 @@ pada text box name untuk perbocaan pertama melakukan sql injection dan tekan tom
 * **Step 10** : Dapat dilihat dari hasil percobaan **Step 9** bahwa kolom username diisi oleh nomer 2, password diisi oleh nomer 3 dan Signature diisi oleh nomer 4.
 
   ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_04_19.png)
-
-* **Step 11** : Langkah selanjutnya adalah melakukan serangan sql injection dengan menggabungkan dengan tabel yang sudah diketahui selain accounts. Contohnya menggunakan tabel credit\_cards, sehingga query sql injectionnya menjadi `' union select ccid,ccnumber,ccv,expiration,null from credit_cards --`  
-  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_10_49.png)
-
-* **Step 12** : Maka hasilnya, bagian username diisi oleh ccnnumber, password diisi oleh ccv, dan signature diisi oleh expiration.   
-  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_12_04.png)
