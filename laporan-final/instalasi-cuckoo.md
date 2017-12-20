@@ -10,4 +10,8 @@ Perangkat lunak perusak adalah pisau swiss-army dari penjahat dunia maya dan mus
 2. VM Windows XP
 
 #INSTALASI 
-1. Dengan Brew Manager, lakukan instalasi 
+1. Dengan Brew Manager, lakukan instalasi untuk requirement sebelum melakukan instalasi `brew install libmagic cairo pango openssl`
+
+2. Masuk ke dalam file include `cd /usr/local/include`
+
+3. Lakukan symbolic link pada openssl `ln -s ../opt/openssl/include/openssl`
