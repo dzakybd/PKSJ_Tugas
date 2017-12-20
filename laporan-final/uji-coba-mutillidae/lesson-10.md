@@ -28,15 +28,9 @@ Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah t
 **pwd** : melihat working directory
 **w** : melihar user yang sedang login dan dikerjakan
 
-* **Step 3** : Masukan command linux pada textbox tersebut `whoami; pwd; w`.
-**whoami** : melihat username yang digunakan
-**pwd** : melihat working directory
-**w** : melihar user yang sedang login dan dikerjakan
-
-* **Step 4** : Masukan command linux pada textbox tersebut `whoami; pwd; w`.
-**whoami** : melihat username yang digunakan
-**pwd** : melihat working directory
-**w** : melihar user yang sedang login dan dikerjakan
+* **Step 3** : Masukan command linux pada textbox tersebut `cat /etc/passwd` dan `netstat -nao | grep "0.0.0.0:"`.
+**cat /etc/passwd** : melihat informasi untuk login, dengan field antara lain Username, Password Existance, User ID, Group ID, Gecos, Home Directory, and Shell
+**netstat -nao | grep "0.0.0.0:"** : melihat koneksi tcp dan portnya yang sedang berlangsung
 
 
 
