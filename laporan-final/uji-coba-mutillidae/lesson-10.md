@@ -47,7 +47,17 @@ Terlihat host, username, password, dan nama database dari MySQL yang digunakan w
 
 ### \# Menggunakan Backdoor untuk pengamatan Netcat
 
+* **Step 1** : Masukan command linux pada textbox tersebut `which nc; netstat -nao | grep 4444 | wc -l`.
+**which nc** : melihat dimana netcat berada
+**netstat -nao | grep 4444 | wc -l** : melihat jumlah semua koneksi ke port 4444
 
+* **Step 1** : Masukan command linux pada textbox tersebut `which nc; netstat -nao | grep 4444 | wc -l`.
+**which nc** : melihat dimana netcat berada
+**netstat -nao | grep 4444 | wc -l** : melihat jumlah semua koneksi ke port 4444
+
+* **Step 1** : Masukan command linux pada textbox tersebut `which nc; netstat -nao | grep 4444 | wc -l`.
+**which nc** : melihat dimana netcat berada
+**netstat -nao | grep 4444 | wc -l** : melihat jumlah semua koneksi ke port 4444
 
 
 
