@@ -51,13 +51,16 @@ include $RULE_PATH/community.rules
  `alert icmp any any -> $HOME_NET any (msg:"ICMP test"; sid:10000001; rev:001;)`
  
 18. Cek tipe koneksi `ip addr`
+![](/assets/snort/ip_addr.png)
 
 19. Jika tipe koneksi `enp0s3`, maka masukkan konfigurasi `sudo snort -A console -i enp0s3 -u snort -g snort -c /etc/snort/snort.conf`
+![](/assets/snort/processing.png)
 
 20. Buka link panda.gtisc.gatech.edu/malrec/
 
 21. Klik PCAP untuk mengunduh file
 
 22. Deteksi File PCAP dengan `snort -r <file.pcap>`
+![](/assets/snort/result_pcap.png)
 
   
