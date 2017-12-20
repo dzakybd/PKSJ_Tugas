@@ -23,7 +23,8 @@ sudo nikto -h 192.168.56.202
 
 Lalu tunggu hasilnya
 
-![](/assets/nikto-hasil.PNG)
+![](/assets/nikto-themole/nikto-hasil.PNG)  
+
   
 Hasil yang didapatkan log berisi hal-hal yang bisa kita ketahui mengenai web application tersebut dan kemungkinan vulnerability yang ada seperti :
 - versi apache yang digunakan
