@@ -26,7 +26,7 @@ select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,
 
 ### \# SQL Injection (Union with Curl)
 
-* **Step 1** : Buka halaman user info. Pilih sidebar. OWASP Top 10 --&gt; A1 - SQL Injection --&gt; SQLi - Extract Data --&gt; User Info
+* **Step 1** : Buka `http://10.151.36.64/mutillidae/` lalu masuk ke halaman user info. Pilih sidebar. OWASP Top 10 --&gt; A1 - SQL Injection --&gt; SQLi - Extract Data --&gt; User Info
   ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_03_01_34.png)
 
 * **Step 2** : Ubah ukuran text box username menjadi 100% menggunakan inspect element agar text box lebih panjang untuk menuliskan syntax SQL Injection.  
@@ -38,3 +38,4 @@ select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,
 ```
 Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah tidak akan menampilkan hasil, justru Authentication Error. Namun disisi lain akan membuat file **CCN2.txt**
 
+* **Step 4** : Melihat hasil operasi dengan membuka `http://10.151.36.64/mutillidae/CCN2.txt`
