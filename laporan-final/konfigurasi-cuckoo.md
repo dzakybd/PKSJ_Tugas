@@ -49,6 +49,6 @@ include $RULE_PATH/community.rules
  Tambahkan satu baris 
  `alert icmp any any -> $HOME_NET any (msg:"ICMP test"; sid:10000001; rev:001;)`
  
- 17. Cek tipe koneksi 
+ 17. Cek tipe koneksi `ip addr`
 
 
