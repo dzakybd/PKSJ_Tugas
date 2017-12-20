@@ -23,6 +23,15 @@ Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah t
 
 * **Step 1** : Buka halaman php yang sudah kita buat `http://10.151.36.64/mutillidae/execute_command.php`
 
+* **Step 2** : Masukan command linux pada textbox tersebut `whoami; pwd; w`.
+**whoami** : melihat username yang digunakan
+**pwd** : melihat working directory
+**w** : melihar user yang sedang login dan dikerjakan
+
+
+
+
+
 
 
 
