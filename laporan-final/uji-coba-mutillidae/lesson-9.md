@@ -29,9 +29,6 @@ Lesson 9 - SQL Injection Union Exploit #2
  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_34_07.png)
  
  
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ### # SQL Injection (Union Example #1)
  
  - **Step 1** : Buka halaman user info. Pilih sidebar. OWASP Top 10 --> A1 - SQL Injection --> SQLi - Extract Data --> User Info
