@@ -19,7 +19,7 @@ Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah t
 
 * **Step 5** : Melihat hasil operasi dengan command berikut pada OS Metasploitable `cat /var/www/mutillidae/execute_command.php` 
 
-### \# Menggunakan Backdoor untuk pengamatan
+### \# Menggunakan Backdoor untuk pengamatan dasar
 
 * **Step 1** : Buka halaman php yang sudah kita buat `http://10.151.36.64/mutillidae/execute_command.php`
 
@@ -30,9 +30,9 @@ Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah t
 
 * **Step 3** : Masukan command linux pada textbox tersebut `cat /etc/passwd` dan `netstat -nao | grep "0.0.0.0:"`.
 **cat /etc/passwd** : melihat informasi untuk login, dengan field antara lain Username, Password Existance, User ID, Group ID, Gecos, Home Directory, and Shell
-**netstat -nao | grep "0.0.0.0:"** : melihat koneksi tcp dan portnya yang sedang berlangsung
+**netstat -nao | grep "0.0.0.0:"** : melihat koneksi port yang sedang berlangsung pada ip 0.0.0.0
 
-
+### \# Menggunakan Backdoor untuk pengamatan Database
 
 
 
