@@ -18,4 +18,4 @@ Perangkat lunak perusak adalah pisau swiss-army dari penjahat dunia maya dan mus
 
 4. Instalasi TCPDump `brew install install tcpdump`
 
-5. 
+5. Permission untuk tcpdump
