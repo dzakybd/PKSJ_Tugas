@@ -20,6 +20,14 @@ ls -lrta
 ```
 ![](/assets/lesson-11/lesson11_2.JPG)
 
+* **Step 3** : Ubah header file php yang awalnya `<?` menjadi `<?php` kemudian file dan gabungkan menjadi script, lakukan command berikut
+```
+unrar x stuff.rar
+cat part1.txt part2.txt part3.txt > c99.php
+cp c99.php c99.php.bkp
+ls -lrta
+```
+![](/assets/lesson-11/lesson11_2.JPG)
 
 
 
