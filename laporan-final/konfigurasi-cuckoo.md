@@ -52,4 +52,6 @@ include $RULE_PATH/community.rules
  
 18. Cek tipe koneksi `ip addr`
 
+19. 
+
 
