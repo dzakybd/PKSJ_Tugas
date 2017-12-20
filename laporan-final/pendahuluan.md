@@ -12,3 +12,7 @@
 - [Kesimpulan dan Saran](kesimpulan-dan-saran.md)
 
 ### PENDAHULUAN
+Pada laporan tugas final ini, penulis akan melakukan uji coba :
+- Sekuritas web app  **Mutillidae**
+- Analisa walware **Cuckoo**
+- Deteksi intruder **Snort**
