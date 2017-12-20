@@ -13,9 +13,16 @@ show tables;
 didalam database terdapat tabel _accounts_ dan _credit_cards_. 2 tabel tersebut akan kita union kan. **UNION** adalah operasi penggabungan lebih dari satu hasil **SELECT** dalam SQL
 
 * **Step 2** : Melakukan operasi UNION
+
+Operasi UNION menampilkan di terminal
 ```
 select * from accounts where username RLIKE '^[0-9]' union select ccid, ccnumber, ccv, expiration, null from credit_cards;
 ```
+Operasi UNION mencetak di file yang berlokasi di **'/tmp/CCN.csv'**
+```
+select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,ccv,expiration,null from credit_cards INTO OUTFILE '/tmp/CCN.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED by '\n';
+```
+
 
 * **Step 3** : Pada bagian connection, klik tombol _Settings_. Setelah mengklik tombol _Settings_, maka akan muncul kotak dialog _Connection Settings_. Atur _Connection Settings_ sesuai gambar.  
   ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_06_35.png)
