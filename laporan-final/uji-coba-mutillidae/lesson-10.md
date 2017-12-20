@@ -32,7 +32,15 @@ Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah t
 **cat /etc/passwd** : melihat informasi untuk login, dengan field antara lain Username, Password Existance, User ID, Group ID, Gecos, Home Directory, and Shell
 **netstat -nao | grep "0.0.0.0:"** : melihat koneksi port yang sedang berlangsung pada ip 0.0.0.0
 
+Terlihat ada user-user yang potensial untuk diserang seperti user apache, mysql, dll.
+Terlihat ada port-port yang biasa digunakan oleh suatu service yang potensial untuk diserang seperti user apache, mysql, dll.
+
 ### \# Menggunakan Backdoor untuk pengamatan Database
+
+* **Step 1** : Masukan command linux pada textbox tersebut `find * -name "*.php" | xargs grep -i "password" | grep "="`. Hal ini dilakukan untuk mencari file berekstensi `.php` dan mencari string yang mengandung `password=`, yang disasar adalah password database mysql.
+
+
+
 
 
 
