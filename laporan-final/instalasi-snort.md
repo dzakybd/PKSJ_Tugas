@@ -28,4 +28,10 @@ Pada tahun 2009, Snort memasuki InfoWorld Open Source Hall of Fame sebagai salah
 9. Masuk ke dalam folder Snort `cd ~/snort_src`
 
 10. Download Snort `wget https://www.snort.org/downloads/snort/snort-2.9.11.tar.gz`
+
+11. Ekstrak File `tar -xvzf snort-2.9.11.tar.gz`
+
+12. Masuk ke dalam Folder Snort `cd snort-2.9.11`
+
+13. Konfigurasi dengan 
  
