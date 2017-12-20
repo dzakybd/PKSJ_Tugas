@@ -10,3 +10,4 @@ Perangkat lunak perusak adalah pisau swiss-army dari penjahat dunia maya dan mus
 2. VM Windows XP
 
 #INSTALASI 
+1. Dengan Brew Manager, lakukan instalasi 
