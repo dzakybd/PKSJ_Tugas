@@ -11,4 +11,4 @@
 
 6. Mengatur permission Snort 1`sudo chmod -R 5775 /etc/snort /var/log/snort /usr/local/lib/snort_dynamicrules`
 
-7. Mengatur permission
+7. Mengatur permission Snort 2 `sudo chown -R snort:snort`
