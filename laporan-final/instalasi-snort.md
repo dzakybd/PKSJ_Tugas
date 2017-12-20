@@ -16,7 +16,7 @@ Pada tahun 2009, Snort memasuki InfoWorld Open Source Hall of Fame sebagai salah
 3. Masuk ke direktori `cd ~/snort_src`
 
 4. Download DAQ `wget https://www.snort.org/downloads/snort/daq-2.0.6.tar.gz`
-
+![](/assets/snort/get_daq.png)
 5. Ekstrak DAQ `tar -xvzf daq-2.0.6.tar.gz`
 
 6. Masuk ke dalam folder `cd daq-2.0.6`
