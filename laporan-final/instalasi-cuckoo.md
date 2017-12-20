@@ -20,4 +20,4 @@ Perangkat lunak perusak adalah pisau swiss-army dari penjahat dunia maya dan mus
 
 5. Permission untuk tcpdump `sudo chmod +s /usr/sbin/tcpdump`
 
-6. 
+6. Instalasi MongoDB `brew install mongodb`
