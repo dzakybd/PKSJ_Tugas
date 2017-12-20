@@ -30,7 +30,6 @@ ls -lrta
 ![](/assets/lesson-11/lesson11_2.JPG)
 
 
-
 ### \# Mendownload c99.php (PHP SQL Injection)
 
 * **Step 1** : Buka `http://10.151.36.64/mutillidae/` lalu masuk ke halaman user info. Pilih sidebar. OWASP Top 10 --&gt; A1 - SQL Injection --&gt; SQLi - Extract Data --&gt; User Info
