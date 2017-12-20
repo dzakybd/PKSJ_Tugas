@@ -28,6 +28,22 @@ Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah t
 **pwd** : melihat working directory
 **w** : melihar user yang sedang login dan dikerjakan
 
+* **Step 3** : Masukan command linux pada textbox tersebut `whoami; pwd; w`.
+**whoami** : melihat username yang digunakan
+**pwd** : melihat working directory
+**w** : melihar user yang sedang login dan dikerjakan
+
+* **Step 4** : Masukan command linux pada textbox tersebut `whoami; pwd; w`.
+**whoami** : melihat username yang digunakan
+**pwd** : melihat working directory
+**w** : melihar user yang sedang login dan dikerjakan
+
+
+
+
+
+
+
 
 
 
