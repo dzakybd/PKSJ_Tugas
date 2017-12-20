@@ -43,9 +43,9 @@ Terlihat terdapat file `config.inc`, file ini diduga berisi konfigurasi database
 
 * **Step 2** : Masukan command linux pada textbox tersebut `cat config.inc | grep -v "<?php"`. Hal ini dilakukan untuk melihat file sebab jika kita tidak gunakan `grep` web tidak akan mencetak nya karena file berisi script php
 
+Terlihat host, username, password, dan nama database dari MySQL yang digunakan web Mutillidae
 
-
-
+### \# Menggunakan Backdoor untuk pengamatan Netcat
 
 
 
