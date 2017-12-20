@@ -52,6 +52,6 @@ include $RULE_PATH/community.rules
  
 18. Cek tipe koneksi `ip addr`
 
-19. Jika tipe koneksi `enp0s3`, maka masukkan konfigurasi 
+19. Jika tipe koneksi `enp0s3`, maka masukkan konfigurasi `sudo snort -A console -i enp0s3 -u snort -g snort -c /etc/snort/snort.conf`
 
 
