@@ -18,6 +18,7 @@
 9. Meng-copy konfigurasi ke lokasi Snort `sudo cp ~/snort_src/snort-2.9.9.0/etc/*.conf* /etc/snort ~/snort_src/snort-2.9.9.0/etc/*.map /etc/snort`
 
 10. Mendownload rules untuk community `wget https://www.snort.org/rules/community -O ~/community.tar.gz`
+![](/assets/snort/get_snort_community.png)
 
 11. Ekstrak rules untuk community `sudo tar -xvf ~/community.tar.gz -C ~/`
 
@@ -26,6 +27,8 @@
 13. Menghilangkan rules yang tidak dibutuhkan saat konfigurasi `sudo sed -i 's/include \$RULE\_PATH/#include \$RULE\_PATH/' /etc/snort/snort.conf`
 
 14. Edit file konfigurasi `sudo gedit /etc/snort/snort.conf`
+![](/assets/snort/gedit_snort_conf.png)
+
 ```
 # Setup the network addresses you are protecting
 ipvar HOME_NET <server public IP>/32
