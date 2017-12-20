@@ -47,9 +47,9 @@ include $RULE_PATH/community.rules
 
 16. Buka file local.rules `sudo nano /etc/snort/rules/local.rules`
  
- 17. Tambahkan satu baris 
+17. Tambahkan satu baris 
  `alert icmp any any -> $HOME_NET any (msg:"ICMP test"; sid:10000001; rev:001;)`
  
- 17. Cek tipe koneksi `ip addr`
+18. Cek tipe koneksi `ip addr`
 
 
