@@ -10,10 +10,12 @@ mysql -uroot
 use owasp10;
 show tables;
 ```
-didalam database terdapat tabel accounts dan credit_cards. 2 tabel tersebut akan kita union kan.
-Union adalah operasi penggabungan lebih dari satu hasil SELECT dalam SQL
+didalam database terdapat tabel _accounts_ dan _credit_cards_. 2 tabel tersebut akan kita union kan. **UNION** adalah operasi penggabungan lebih dari satu hasil **SELECT** dalam SQL
 
-* **Step 2** : Setting proxy pada firefox dengan membuka pengaturan network melalui open menu --&gt; Preferences -&gt; Advanced --&gt; Network
+* **Step 2** : Melakukan operasi UNION
+```
+select * from accounts where username RLIKE '^[0-9]' union select ccid, ccnumber, ccv, expiration, null from credit_cards;
+```
 
 * **Step 3** : Pada bagian connection, klik tombol _Settings_. Setelah mengklik tombol _Settings_, maka akan muncul kotak dialog _Connection Settings_. Atur _Connection Settings_ sesuai gambar.  
   ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_06_35.png)
