@@ -51,4 +51,10 @@
     ```
 10. Buat Virtualbox menggunakan Windows XP, gunakan bridge connection agar dapat terhubung dengan MacOS
 
+11. Install python2.7 pada Windows XP https://www.python.org/downloads/release/python-2711/
+
+12. Install python imaging library pada Windows XP http://effbot.org/downloads/PIL-1.1.7.win32-py2.7.exe
+
+13. Pada MacOS, run `cuckoo web runserver`
+
 
