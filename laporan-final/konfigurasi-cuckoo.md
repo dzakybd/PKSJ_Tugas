@@ -49,6 +49,6 @@
     enabled = yes
     
     ```
-10. Buat Virtualbox menggunakan Windows XP, gunakan 
+10. Buat Virtualbox menggunakan Windows XP, gunakan bridge connection agar dapat terhubung dengan MacOS
 
 
