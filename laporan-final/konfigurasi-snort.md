@@ -2,7 +2,7 @@
 1. Update shared libraries `sudo ldconfig` 
 
 2. Symblic link ke file Snort `sudo ln -s /usr/local/bin/snort /usr/sbin/snort`
-
+![](/assets/snort/symbolic_link.png)
 3. Membuat Username `sudo groupadd snort`
 
 4. Masukkan user ke dalam grup `sudo useradd snort -r -s /sbin/nologin -c SNORT_IDS -g snort`
