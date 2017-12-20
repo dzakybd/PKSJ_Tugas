@@ -30,4 +30,6 @@ Perangkat lunak perusak adalah pisau swiss-army dari penjahat dunia maya dan mus
 
 10. Instalasi Cuckoo `pip install -U cuckoo`
 
-11. 
+11. Run `cuckoo -d` untuk membuatkan file cuckoo untuk nanti digunakan, perintah yang sama berikutnya akan mengaktifkan fungsi cuckoo
+
+12. 
