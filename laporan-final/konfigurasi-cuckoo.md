@@ -11,4 +11,8 @@
 
 6. Mengatur permission Snort 1`sudo chmod -R 5775 /etc/snort /var/log/snort /usr/local/lib/snort_dynamicrules`
 
-7. Mengatur permission Snort 2 `sudo chown -R snort:snort`
+7. Mengatur permission Snort 2 `sudo chown -R snort:snort /etc/snort /var/log/snort /usr/local/lib/snort_dynamicrules`
+
+8. Membuat file untuk menampung black list dan white list `sudo touch /etc/snort/rules/white_list.rules /etc/snort/rules/black_list.rules /etc/snort/rules/local.rules`
+
+9. 
