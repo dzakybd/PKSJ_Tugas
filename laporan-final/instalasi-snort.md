@@ -8,7 +8,7 @@ Pada tahun 2009, Snort memasuki InfoWorld Open Source Hall of Fame sebagai salah
 2. Snort
 3. DAQ
 
-#INSTALLASI
+#INSTALASI
 1. Instalasi library`sudo apt install -y gcc libpcre3-dev zlib1g-dev libpcap-dev openssl libssl-dev libnghttp2-dev libdumbnet-dev bison flex libdnet`
 
 2. Membuat direktori `mkdir ~/snort_src`
