@@ -15,4 +15,8 @@
 
 8. Membuat file untuk menampung black list dan white list `sudo touch /etc/snort/rules/white_list.rules /etc/snort/rules/black_list.rules /etc/snort/rules/local.rules`
 
-9. 
+9. Meng-copy konfigurasi ke lokasi Snort `sudo cp ~/snort_src/snort-2.9.9.0/etc/*.conf* /etc/snort ~/snort_src/snort-2.9.9.0/etc/*.map /etc/snort`
+
+10. Mendownload rules untuk community `wget https://www.snort.org/rules/community -O ~/community.tar.gz`
+
+11. Ekstra
