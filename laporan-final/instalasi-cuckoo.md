@@ -16,4 +16,6 @@ Perangkat lunak perusak adalah pisau swiss-army dari penjahat dunia maya dan mus
 
 3. Lakukan symbolic link pada openssl `ln -s ../opt/openssl/include/openssl`
 
-4. Instalasi TCPDump `brew install install tcpdump apparmor-utils`
+4. Instalasi TCPDump `brew install install tcpdump`
+
+5. 
