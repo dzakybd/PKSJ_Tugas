@@ -38,7 +38,7 @@
     label = windowsxp
     platform = windows
     ip = 10.151.64.196 # IP address of the guest
-    snapshot = snapshot1 # name of snapshot
+    snapshot = cuckoo1 # name of snapshot
     ```
     
 8. Ubah konfigurasi reporting.conf `$CWD/conf/reporting.conf`
@@ -57,7 +57,7 @@
 
 13. Pada MacOS, run `cuckoo web runserver`
 
-14. Gunakan address `cuckoo web runserver 0.0.0.0:7070`
+14. Gunakan skrip `cuckoo web runserver 0.0.0.0:7070` untuk menjalankan web server
 
 15. 
 
