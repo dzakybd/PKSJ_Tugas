@@ -58,13 +58,13 @@ Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah t
 * **Step 1** : Melihat hasil operasi dengan web browser di `http://10.151.36.64/mutillidae/c99.php` 
 ![](/assets/lesson-11/lesson11_6.JPG)
 
-* **Step 2** : Mengetahui working directory, dengan exucute command `pwd`
+* **Step 2** : Mengetahui working directory, dengan execute command `pwd`
 ![](/assets/lesson-11/lesson11_7.JPG)
 
-* **Step 3** : Mencari file yang berisi konfigurasi database, dengan exucute command `find /var/www/mutillidae | xargs grep -i "dbuser"`
+* **Step 3** : Mencari file yang berisi konfigurasi database, dengan execute command `find /var/www/mutillidae | xargs grep -i "dbuser"`
 ![](/assets/lesson-11/lesson11_8.JPG)
 
-* **Step 4** : Membuka file yang berisi konfigurasi database, dengan exucute command `cat /var/www/mutillidae/config.inc`
+* **Step 4** : Membuka file yang berisi konfigurasi database, dengan execute command `cat /var/www/mutillidae/config.inc`
 ![](/assets/lesson-11/lesson11_9.JPG)
 
 Tercatat :
