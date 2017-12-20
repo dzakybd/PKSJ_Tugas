@@ -21,3 +21,13 @@ Perangkat lunak perusak adalah pisau swiss-army dari penjahat dunia maya dan mus
 5. Permission untuk tcpdump `sudo chmod +s /usr/sbin/tcpdump`
 
 6. Instalasi MongoDB `brew install mongodb`
+
+7. Tambahkan user baru `sudo adduser cuckoo`
+
+8. Memberian user baru untuk Virtualbox `sudo usermod -a -G vboxusers cuckoo`
+
+9. Instalasi setuptools `pip install -U pip setuptools`
+
+10. Instalasi Cuckoo `pip install -U cuckoo`
+
+11. 
