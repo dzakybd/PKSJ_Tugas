@@ -19,4 +19,12 @@
 
 10. Mendownload rules untuk community `wget https://www.snort.org/rules/community -O ~/community.tar.gz`
 
-11. Ekstra
+11. Ekstrak rules untuk community `sudo tar -xvf ~/community.tar.gz -C ~/`
+
+12. Copy rules ke folder Snort `sudo cp ~/community-rules/* /etc/snort/rules`
+
+13. Menghilangkan rules yang tidak dibutuhkan saat konfigurasi `sudo sed -i 's/include \$RULE\_PATH/#include \$RULE\_PATH/' /etc/snort/snort.conf`
+
+14. Edit file konfigurasi `sudo gedit /etc/snort/snort.conf`
+
+
