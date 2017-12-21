@@ -17,7 +17,7 @@ sudo nikto -h 192.168.56.202
 
 Lalu tunggu hasilnya
 
-![](/assets/nikto-hasil.PNG)  
+![](/assets/nikto-themole/nikto-hasil.PNG)  
 
 
 ## KESIMPULAN
