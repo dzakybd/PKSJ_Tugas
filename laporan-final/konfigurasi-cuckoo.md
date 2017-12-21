@@ -59,5 +59,5 @@
 
 14. Gunakan skrip `cuckoo web runserver 0.0.0.0:7070` untuk menjalankan web server
 
-15. 
+15. Copy 
 
