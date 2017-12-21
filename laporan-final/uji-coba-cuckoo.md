@@ -5,5 +5,7 @@
 
 3. Lakukan submit untuk melakukan uji coba
 
-4. Hasil akan diberikan dalam bentuk screenshot langkah-langkah
+4. Hasil akan diberikan dalam bentuk screenshot langkah-langkah malware masuk ke dalam sistem
+
+
 
