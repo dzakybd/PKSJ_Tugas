@@ -55,17 +55,13 @@
 
 12. Install python imaging library pada Windows XP http://effbot.org/downloads/PIL-1.1.7.win32-py2.7.exe
 
+13. Copy file agent.py dari `.cuckoo/cuckoo/agent/agent.py` ke dalam virtual mesin Windows XP `C:/Documents and Settings/All Users/Start Menu/Programs/Startup`
 
-
-15. Copy file agent.py dari `.cuckoo/cuckoo/agent/agent.py` ke dalam virtual mesin Windows XP `C:/Documents and Settings/All Users/Start Menu/Programs/Startup`
-
-16. Buatlah snapshot dari Windows XP saat dimatikan dan dilakukan restorasi dari state terakhir sebelum mati dengan
+14. Buatlah snapshot dari Windows XP saat dimatikan dan dilakukan restorasi dari state terakhir sebelum mati dengan
     ```
     vboxmanage snapshot "windowsxp" take "snapshot1" --pause
     vboxmanage controlvm "windowsxp" poweroff
     vboxmanage snapshot "windowsxp" restorecurrent
     
     ```
-    
-17. 
 
