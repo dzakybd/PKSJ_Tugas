@@ -59,5 +59,7 @@
 
 14. Gunakan skrip `cuckoo web runserver 0.0.0.0:7070` untuk menjalankan web server
 
-15. Copy file agent.py dari `.cuckoo/cuckoo/agent/agent.py` ke dalam virtual mesin Windows XP ''
+15. Copy file agent.py dari `.cuckoo/cuckoo/agent/agent.py` ke dalam virtual mesin Windows XP `C:/Documents and Settings/All Users/Start Menu/Programs/Startup`
+
+16. 
 
