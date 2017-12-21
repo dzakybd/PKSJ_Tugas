@@ -1,5 +1,5 @@
 # KONFIGURASI
-1. Masuk ke dala file cuckoo yang telah di run sebelumnya 
+1. Masuk ke dalam file cuckoo yang telah di run sebelumnya 
 
 2. Ubah file cuckoo.conf `$CWD/conf/cuckoo.conf`
 
@@ -55,9 +55,13 @@
 
 12. Install python imaging library pada Windows XP http://effbot.org/downloads/PIL-1.1.7.win32-py2.7.exe
 
-13. Pada MacOS, run `cuckoo -d`
+13. Copy file agent.py dari `.cuckoo/cuckoo/agent/agent.py` ke dalam virtual mesin Windows XP `C:/Documents and Settings/All Users/Start Menu/Programs/Startup`
 
-14. Gunakan skrip `cuckoo web runserver 0.0.0.0:7070` untuk menjalankan web server
-
-15. 
+14. Buatlah snapshot dari Windows XP saat dimatikan dan dilakukan restorasi dari state terakhir sebelum mati dengan
+    ```
+    vboxmanage snapshot "windowsxp" take "snapshot1" --pause
+    vboxmanage controlvm "windowsxp" poweroff
+    vboxmanage snapshot "windowsxp" restorecurrent
+    
+    ```
 
