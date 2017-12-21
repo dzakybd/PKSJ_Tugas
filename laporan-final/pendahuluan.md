@@ -9,7 +9,6 @@
 - [Instalasi Snort](instalasi-snort.md)
 - [Konfigurasi Snort](konfigurasi-snort.md)
 - [Uji Coba Snort](uji-coba-snort.md)
-- [Kesimpulan dan Saran](kesimpulan-dan-saran.md)
 
 ### PENDAHULUAN
 Pada laporan tugas final ini, penulis akan melakukan uji coba :

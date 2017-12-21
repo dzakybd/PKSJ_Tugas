@@ -1,4 +1,4 @@
-Konfirgurasi Multilidae
+Konfigurasi Multilidae
 -----------------------
 Multilidae sudah langsung terinstall pada virtual machine Metasploitable. Sebelum menggunakannya, ada beberapa tahap untuk konfigurasi Multilidae 
 - **Step 1**    : Ganti nama database Multilidae
